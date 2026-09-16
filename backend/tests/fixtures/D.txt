@@ -1,0 +1,1 @@
+Mathematics note D: prime numbers have exactly two positive divisors.
