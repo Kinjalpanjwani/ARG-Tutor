@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A minimal end-to-end test interface for the AI Tutor." />
+    <title>AI Tutor · Lesson Lab</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Literata:opsz,wght@7..72,500;7..72,650&family=Public+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <script type="module" src="/src/main.js"></script>
+  </head>
+  <body>
+    <main class="page-shell">
+      <header class="masthead">
+        <div>
+          <p class="eyebrow">AI Tutor · pipeline test</p>
+          <h1>Bring a lesson<br /><em>into focus.</em></h1>
+        </div>
+        <div class="connection" aria-live="polite">
+          <span class="signal" id="connectionSignal"></span>
+          <span id="connectionText">Checking tutor…</span>
+        </div>
+      </header>
+
+      <section class="workflow" aria-label="Lesson setup">
+        <div class="setup-panel">
+          <div class="section-heading">
+            <span class="step-number">01</span>
+            <div>
+              <h2>Add course material</h2>
+              <p>PDFs, slides, notes, or images can guide the tutor, but they are optional.</p>
+            </div>
+          </div>
+
+          <label class="drop-zone" id="dropZone" for="fileInput">
+            <input id="fileInput" type="file" accept=".pdf,.png,.jpg,.jpeg,.pptx,.txt,.md,application/pdf,image/png,image/jpeg,text/plain,text/markdown,application/vnd.openxmlformats-officedocument.presentationml.presentation" multiple />
+            <span class="drop-icon" aria-hidden="true">↓</span>
+            <strong>Add course material</strong>
+            <span>or <u>choose files</u> from your computer</span>
+            <small>PDF · PPTX · PNG · JPG · TXT · MD · 25 MB each</small>
+          </label>
+          <div class="file-list" id="fileList" aria-live="polite"></div>
+
+          <div class="lesson-prompt">
+            <div class="section-heading compact">
+              <span class="step-number">02</span>
+              <div>
+                <h2>Choose the lesson</h2>
+                <p>What would you like to learn?</p>
+              </div>
+            </div>
+            <label for="topicInput">What should we study?</label>
+            <textarea id="topicInput" rows="3" placeholder="Teach me linear algebra, explain this equation, or add course material…"></textarea>
+            <button class="start-button" id="startButton" type="button" disabled>
+              <span>Start lesson</span><span aria-hidden="true">→</span>
+            </button>
+            <p class="form-error" id="formError" role="alert"></p>
+          </div>
+        </div>
+
+        <div class="board-column">
+          <div class="board-label">
+            <span>Lesson board</span>
+            <span id="lessonState">Ready to teach</span>
+          </div>
+          <section class="whiteboard" id="whiteboard" aria-live="polite">
+            <div class="empty-board" id="emptyBoard">
+              <span class="chalk-mark">ƒ(x)</span>
+              <h2>Your lesson will appear here.</h2>
+              <p>Ask about any academic topic, type an equation, or add material you want the tutor to use.</p>
+            </div>
+            <div class="lesson-content" id="lessonContent"></div>
+          </section>
+          <nav class="board-pagination" id="boardPagination" aria-label="Whiteboard pages" hidden>
+            <button id="previousPage" type="button">← Previous</button>
+            <span id="pageLabel">Page 1 / 1</span>
+            <button id="nextPage" type="button">Next →</button>
+          </nav>
+          <div class="playback-controls" id="playbackControls" hidden>
+            <button id="pauseResumeButton" type="button">⏸ Pause</button>
+            <button id="stopButton" type="button">⏹ Stop</button>
+          </div>
+          <form class="interrupt-bar" id="interruptForm" hidden>
+            <button class="attach-button" id="attachButton" type="button" aria-label="Add course material">+</button>
+            <button class="mic-button" id="micButton" type="button" aria-label="Start voice question">🎤</button>
+            <label class="sr-only" for="interruptInput">Ask the tutor</label>
+            <input id="interruptInput" type="text" placeholder="Ask the tutor while they teach…" autocomplete="off" />
+            <button class="ask-button" id="askButton" type="submit">Send</button>
+          </form>
+          <p class="mic-hint" id="micHint" aria-live="polite"></p>
+          <section class="followups" id="followups" hidden>
+            <h3>Questions to think about</h3>
+            <div id="followupList"></div>
+          </section>
+          <section class="quiz-panel" id="quizPanel" hidden>
+            <div class="quiz-actions" id="quizActions">
+              <strong>Check your understanding</strong>
+              <button type="button" data-count="3">Quick quiz · 3</button>
+              <button type="button" data-count="5">Standard · 5</button>
+              <button type="button" data-count="10">Practice · 10</button>
+            </div>
+            <div id="quizContent"></div>
+          </section>
+        </div>
+      </section>
+
+      <details class="debug-panel" open>
+        <summary>Development status <span>core pipeline</span></summary>
+        <div class="debug-grid">
+          <div><span>Backend</span><strong id="debugBackend">Checking</strong></div>
+          <div><span>Materials ready</span><strong id="debugPdfs">0</strong></div>
+          <div><span>Chunks indexed</span><strong id="debugChunks">0</strong></div>
+          <div><span>Retrieval results</span><strong id="debugRetrieval">0</strong></div>
+          <div><span>Lesson generation</span><strong id="debugGeneration">Idle</strong></div>
+        </div>
+      </details>
+    </main>
+  </body>
+</html>
