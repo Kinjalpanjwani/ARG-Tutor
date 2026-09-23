@@ -3,6 +3,7 @@ from pathlib import Path
 from tempfile import mkdtemp
 
 from app.core.config import Settings
+from app.language.detector import LanguageDetector
 from app.llm.groq_client import GroqService
 from app.llm.guardrails import AcademicGuard
 from app.llm.planner import TeachingPlanner
@@ -16,8 +17,11 @@ from app.rag.vector_store import VectorStore
 from app.speech.stt import SpeechToTextService
 from app.speech.tts import TextToSpeechService
 from app.speech.vad import VoiceActivityDetector
-from app.storage import CourseRepository, DocumentRepository
+from app.schemas.lesson import LessonRecord
+from app.storage import CourseRepository, DocumentRepository, JsonRepository
+from app.teaching.archive import LessonArchiveService
 from app.teaching.engine import TeachingEngine
+from app.teaching.flashcards import FlashcardService
 from app.teaching.followups import FollowupService
 from app.teaching.quiz import QuizService
 from app.teaching.session import SessionStore
@@ -42,6 +46,9 @@ class Container:
     tts: TextToSpeechService
     vad: VoiceActivityDetector
     notebook_lessons: NotebookLessonService
+    history: LessonArchiveService | None = None
+    flashcards: FlashcardService | None = None
+    language_detector: LanguageDetector | None = None
 
 
 def build_container(settings: Settings) -> Container:
@@ -63,6 +70,12 @@ def build_container(settings: Settings) -> Container:
     )
     teaching = TeachingEngine(sessions, guard, TeachingPlanner(groq), tutor, retriever)
     vad = VoiceActivityDetector()
+    language_detector = LanguageDetector(groq)
+    notebook_lessons = NotebookLessonService(
+        groq, guard, retriever,
+        language_detector=language_detector,
+        language_detection_enabled=settings.language_detection_enabled,
+    )
     return Container(
         runtime_dir=runtime_dir, settings=settings, courses=courses, documents=documents,
         ingestion=ingestion, retriever=retriever, guard=guard, tutor=tutor,
@@ -72,5 +85,8 @@ def build_container(settings: Settings) -> Container:
         stt=SpeechToTextService(groq, vad),
         tts=TextToSpeechService(runtime_dir / "audio", settings.tts_voice_english, settings.tts_voice_urdu),
         vad=vad,
-        notebook_lessons=NotebookLessonService(groq, guard, retriever),
+        notebook_lessons=notebook_lessons,
+        history=LessonArchiveService(notebook_lessons.store, JsonRepository(settings.data_dir / "lessons.json", LessonRecord)),
+        flashcards=FlashcardService(groq, notebook_lessons.store),
+        language_detector=language_detector,
     )

@@ -1,0 +1,3297 @@
+{
+  "86d44efc-0a5e-4591-a9f9-5cabe8f860e1": {
+    "session_id": "86d44efc-0a5e-4591-a9f9-5cabe8f860e1",
+    "course_id": "1b0d1a40-ea55-4888-8961-7408cf4a33b0",
+    "topic": "teach me HCF in 1 slide",
+    "language": "English",
+    "created_at": "2026-09-21T05:39:54.267943Z",
+    "updated_at": "2026-09-21T05:42:38.624753Z",
+    "blocks": [
+      {
+        "type": "heading",
+        "text": "HCF Overview",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "The Highest Common Factor (HCF), also called the Greatest Common Divisor (GCD), is the largest positive integer that divides two or more integers without leaving a remainder.",
+        "interrupt_type": null
+      },
+      {
+        "type": "checkin",
+        "text": "Re-engagement Check-in Quick Check-in I notice you might be drifting—would a simpler example, a slower pace, or trying it a different way help you right now?",
+        "interrupt_type": "checkin"
+      },
+      {
+        "type": "student_question",
+        "text": "continue",
+        "interrupt_type": null
+      },
+      {
+        "type": "tutor_answer",
+        "text": "Finding the HCF of 48 and 180 with the Euclidean Algorithm Step‑by‑step Euclidean Algorithm Great, let’s jump right in. To find the highest common factor (HCF) of 48 and 180, we repeatedly divide the larger number by the smaller and keep the remainder. When the remainder becomes zero, the last non‑zero remainder is the HCF. Let’s do it together, one tiny step at a time. 180 = 48 \\times 3 + 36 48 = 36 \\times 1 + 12 36 = 12 \\times 3 + 0 The last non‑zero remainder is 12, so HCF(48, 180) = 12. What is the HCF we just found? Please say the number.",
+        "interrupt_type": "checkin"
+      }
+    ],
+    "follow_up_questions": [
+      "How would you find the HCF of 84 and 126 using the Euclidean Algorithm?",
+      "Explain why the Euclidean Algorithm always ends with the greatest common divisor.",
+      "Can the HCF of two prime numbers ever be greater than 1? Why or why not?"
+    ],
+    "quiz_score": 1,
+    "quiz_total": 3,
+    "quiz_results": [
+      {
+        "question": "Which of the following steps is NOT part of the Euclidean Algorithm for finding the HCF?",
+        "answer": "Replace the larger number with the smaller and the smaller with the remainder",
+        "result": "incorrect",
+        "explanation": "The step 'Replace the larger number with the smaller and the smaller with the remainder' is actually step 3 of the Euclidean Algorithm, so the student's answer incorrectly identifies it as not part of the algorithm."
+      },
+      {
+        "question": "The HCF of 48 and 180 is 12.",
+        "answer": "True",
+        "result": "correct",
+        "explanation": "The student correctly identified the statement as true; the HCF of 48 and 180 is indeed 12."
+      },
+      {
+        "question": "According to the lesson, what is another name for the Highest Common Factor?",
+        "answer": "euclidean algorithm",
+        "result": "incorrect",
+        "explanation": "The lesson states that the Highest Common Factor (HCF) is also called the Greatest Common Divisor (GCD). The student answered \"euclidean algorithm,\" which is the method for finding the HCF, not another name for it."
+      }
+    ],
+    "quiz_at": "2026-09-21T05:42:38.624753Z"
+  },
+  "f3c9c492-169d-444b-827c-7614d70dde77": {
+    "session_id": "f3c9c492-169d-444b-827c-7614d70dde77",
+    "course_id": "1b0d1a40-ea55-4888-8961-7408cf4a33b0",
+    "topic": "teach me LCM in one slide",
+    "language": "English",
+    "created_at": "2026-09-21T06:05:12.797880Z",
+    "updated_at": "2026-09-21T06:05:12.797880Z",
+    "blocks": [
+      {
+        "type": "heading",
+        "text": "Least Common Multiple (LCM)",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "The least common multiple of two (or more) integers is the smallest positive integer that is a multiple of each of them.",
+        "interrupt_type": null
+      },
+      {
+        "type": "note",
+        "text": "LCM and GCD (greatest common divisor) are linked: the product of the LCM and GCD of two numbers equals the product of the numbers themselves.",
+        "interrupt_type": null
+      },
+      {
+        "type": "equation",
+        "text": "LCM(a, b) = \\frac{|a \\times b|}{GCD(a, b)}",
+        "interrupt_type": null
+      },
+      {
+        "type": "step_flow",
+        "text": "Prime‑factor method to find LCM: 1. Write each number as a product of prime factors. 2. For each distinct prime, take the highest exponent that appears. 3. Multiply those chosen prime powers together.",
+        "interrupt_type": null
+      },
+      {
+        "type": "student_question",
+        "text": "end the lesson",
+        "interrupt_type": null
+      }
+    ],
+    "follow_up_questions": [
+      "Calculate the LCM of 15 and 20 using either method.",
+      "Explain in your own words how the LCM is related to the GCD.",
+      "Give a real‑world situation where finding the LCM is useful (e.g., scheduling events)."
+    ],
+    "quiz_score": null,
+    "quiz_total": null,
+    "quiz_results": [],
+    "quiz_at": null
+  },
+  "1597ff26-acfd-4df4-aac2-ada38a3bfb1f": {
+    "session_id": "1597ff26-acfd-4df4-aac2-ada38a3bfb1f",
+    "course_id": "1b0d1a40-ea55-4888-8961-7408cf4a33b0",
+    "topic": "teach me LCM in one slide",
+    "language": "English",
+    "created_at": "2026-09-21T06:45:49.730462Z",
+    "updated_at": "2026-09-21T06:45:49.730462Z",
+    "blocks": [
+      {
+        "type": "heading",
+        "text": "Understanding LCM",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "The Least Common Multiple (LCM) of two or more integers is the smallest positive integer that is a multiple of each of them.",
+        "interrupt_type": null
+      },
+      {
+        "type": "note",
+        "text": "Key terms: a *multiple* of a number n is any integer k·n. A *common multiple* is a number that is a multiple of each number in a set.",
+        "interrupt_type": null
+      },
+      {
+        "type": "student_question",
+        "text": "I could do it.",
+        "interrupt_type": null
+      },
+      {
+        "type": "tutor_answer",
+        "text": "1. Great, go ahead and calculate the LCM using the prime factors we listed.\n2. Remember to take the highest exponent for each prime and multiply them together.",
+        "interrupt_type": null
+      }
+    ],
+    "follow_up_questions": [
+      "Explain why the LCM is the smallest common multiple, not just any common multiple.",
+      "How would you find the LCM of three numbers, say 4, 5, and 10?",
+      "If the GCD of two numbers is 1, what can you say about their LCM relative to their product?"
+    ],
+    "quiz_score": null,
+    "quiz_total": null,
+    "quiz_results": [],
+    "quiz_at": null
+  },
+  "72f142b3-9053-47d5-a1f1-ffdae3ae2893": {
+    "session_id": "72f142b3-9053-47d5-a1f1-ffdae3ae2893",
+    "course_id": "1b0d1a40-ea55-4888-8961-7408cf4a33b0",
+    "topic": "Teach me LCM",
+    "language": "English",
+    "created_at": "2026-09-21T06:59:32.421802Z",
+    "updated_at": "2026-09-21T07:09:33.323062Z",
+    "blocks": [
+      {
+        "type": "heading",
+        "text": "What is the LCM?",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "The Least Common Multiple, abbreviated LCM, of two or more integers is the smallest positive integer that is a multiple of each of those numbers.",
+        "interrupt_type": null
+      },
+      {
+        "type": "student_question",
+        "text": "I'm sorry.",
+        "interrupt_type": null
+      }
+    ],
+    "follow_up_questions": [
+      "Explain why the LCM of two coprime numbers (numbers with GCD = 1) is simply their product.",
+      "Using prime factorization, find the LCM of 45 and 60.",
+      "If LCM(12, x) = 60, what are the possible values of x? List all positive integer solutions."
+    ],
+    "quiz_score": 0,
+    "quiz_total": 3,
+    "quiz_results": [
+      {
+        "question": "What is the least common multiple (LCM) of 4 and 6?",
+        "answer": "10",
+        "result": "incorrect",
+        "explanation": "The correct least common multiple of 4 and 6 is 12, as shown in the lesson. The student's answer of 10 is not a multiple of 6, so it is incorrect."
+      },
+      {
+        "question": "The LCM of 5 and 10 is 20.",
+        "answer": "True",
+        "result": "incorrect",
+        "explanation": "The statement is false because the smallest common multiple of 5 and 10 is 10, not 20. The student answered \"True,\" which does not match the correct answer."
+      },
+      {
+        "question": "Using the prime factorization method, what is the LCM of 18 and 24?",
+        "answer": "i dontknow",
+        "result": "incorrect",
+        "explanation": "The student did not provide the LCM; the correct answer using prime factorization is 72."
+      }
+    ],
+    "quiz_at": "2026-09-21T07:09:33.323062Z"
+  },
+  "2e92a5bb-f5fe-412d-8876-05c0ee97d0e5": {
+    "session_id": "2e92a5bb-f5fe-412d-8876-05c0ee97d0e5",
+    "course_id": "1b0d1a40-ea55-4888-8961-7408cf4a33b0",
+    "topic": "When the news reached Europe that Jerusalem and\nSalah al-Din Ayyubi's leadership during the\nAcre had fallen",
+    "language": "English",
+    "created_at": "2026-09-21T07:19:50.011252Z",
+    "updated_at": "2026-09-21T07:19:50.011252Z",
+    "blocks": [
+      {
+        "type": "heading",
+        "text": "1. Setting the Stage: The Crusader States and the Muslim Response",
+        "interrupt_type": null
+      },
+      {
+        "type": "checkin",
+        "text": "Re-engagement Check-in Check-in Would you like me to walk through a simpler example at a slower pace, or try a different approach?",
+        "interrupt_type": "checkin"
+      },
+      {
+        "type": "checkin",
+        "text": "Re-engagement Check Check-in Would you like me to walk through a simpler example more slowly, or try a different approach?",
+        "interrupt_type": "checkin"
+      },
+      {
+        "type": "student_question",
+        "text": "continue",
+        "interrupt_type": null
+      },
+      {
+        "type": "tutor_answer",
+        "text": "Crusader Kingdoms Overview Late 12th‑Century Crusader Presence Great, let’s keep going. By the late 1100s, the Latin Kingdom of Jerusalem was still on the map, but it was much smaller than the original crusader state. Think of it as a tiny island of European rule surrounded by Muslim lands. In addition to Jerusalem, the crusaders held a handful of coastal ports—most notably Acre and Tyre—where they could receive supplies and ships from Europe. These enclaves acted like fortified trading posts that kept a foothold on the eastern Mediterranean even as the surrounding region was largely under Muslim control. Quick check: Which two coastal cities, besides Jerusalem, served as key Crusader enclaves in the late 12th century?",
+        "interrupt_type": "checkin"
+      }
+    ],
+    "follow_up_questions": [
+      "Why did the loss of Jerusalem in 1187 cause such a strong reaction in Western Europe compared to the later loss of Acre?",
+      "What were the main logistical challenges medieval messengers faced when carrying news across the Mediterranean?",
+      "How did the death of Saladin in 1193 influence the subsequent Muslim strategies against the Crusader states?"
+    ],
+    "quiz_score": null,
+    "quiz_total": null,
+    "quiz_results": [],
+    "quiz_at": null
+  },
+  "e92c7410-0222-496c-9090-0e006d518899": {
+    "session_id": "e92c7410-0222-496c-9090-0e006d518899",
+    "course_id": "1b0d1a40-ea55-4888-8961-7408cf4a33b0",
+    "topic": "teach me the story of golodilocks",
+    "language": "English",
+    "created_at": "2026-09-21T07:30:54.674032Z",
+    "updated_at": "2026-09-21T07:30:54.674032Z",
+    "blocks": [
+      {
+        "type": "heading",
+        "text": "1. Setting the Scene",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "Goldilocks is a classic fairy tale that originated in the 19th‑century oral tradition of Europe.",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "The most familiar version was popularized by the American author Robert Southey in 1837, though earlier variants featured a bear family and a “little girl” rather than Goldilocks herself.",
+        "interrupt_type": null
+      },
+      {
+        "type": "checkin",
+        "text": "Check‑in Prompt Pause and Reflect I see this might be getting to be too much – would you like me to repeat that or take it slower?",
+        "interrupt_type": "checkin"
+      },
+      {
+        "type": "student_question",
+        "text": "continue",
+        "interrupt_type": null
+      },
+      {
+        "type": "tutor_answer",
+        "text": "2. The Tale Unfolds – A Gentle Walkthrough Acknowledging Your Pace I hear you – let’s take a slower, clearer look at the story’s second part. Can you tell me in one word what you think the phrase “the tale unfolds” means? What “The Tale Unfolds” Means When we say a tale “unfolds,” we’re describing how the plot gradually reveals itself, step by step, like opening the pages of a book. Key idea: unfolding = a smooth, sequential reveal of events. A Simple Everyday Example Imagine you’re baking a cake. First you mix the ingredients, then you pour the batter, and finally the oven transforms it into a finished cake. Each step reveals a new part of the final result – that’s the cake’s “story” unfolding. In a narrative, the “ingredients” are characters and setting, the “mixing” is the inciting incident, and the “baking” is the rising action that leads to the climax. Connecting Back to the Lecture With that picture in mind, we can see how the second segment of our story builds on the first, adding new details that keep the audience engaged. Now that we’ve clarified the unfolding process, let’s move on to the next point.",
+        "interrupt_type": "checkin"
+      }
+    ],
+    "follow_up_questions": [
+      "What moral does the Goldilocks story teach about respecting other people's belongings?",
+      "How does the idea of a \"Goldilocks zone\" apply to finding habitable planets?",
+      "If you were one of the bears, how might you have reacted differently when Goldilocks entered your home?"
+    ],
+    "quiz_score": null,
+    "quiz_total": null,
+    "quiz_results": [],
+    "quiz_at": null
+  },
+  "71607cea-cf04-4ca4-9c15-20adcd5a306a": {
+    "session_id": "71607cea-cf04-4ca4-9c15-20adcd5a306a",
+    "course_id": "40321a8b-49a1-4d12-98e4-2b30468d2f94",
+    "topic": "teach me multiples of 10",
+    "language": "English",
+    "created_at": "2026-09-21T08:46:03.488026Z",
+    "updated_at": "2026-09-21T08:46:03.488026Z",
+    "blocks": [
+      {
+        "type": "heading",
+        "text": "What Is a Multiple of 10?",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "A *multiple* of a number is the product you get when you multiply that number by an integer. So a multiple of 10 is any number you can write as 10 × n, where n is a whole number (0, 1, 2, 3, …).",
+        "interrupt_type": null
+      },
+      {
+        "type": "note",
+        "text": "Because 10 ends in a zero, every multiple of 10 also ends in a zero. This simple visual cue helps you spot them quickly.",
+        "interrupt_type": null
+      },
+      {
+        "type": "example",
+        "text": "If n = 4, then 10 × 4 = 40. So 40 is a multiple of 10.",
+        "interrupt_type": null
+      },
+      {
+        "type": "equation",
+        "text": "10 × n = \\underbrace{10}_{\\text{base}} \\times \\underbrace{n}_{\\text{multiplier}}",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "The first few multiples of 10 are: 0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, …",
+        "interrupt_type": null
+      },
+      {
+        "type": "step_flow",
+        "text": "How to generate the next multiple: 1️⃣ Start with a known multiple (e.g., 30). 2️⃣ Add 10. 3️⃣ The result (40) is the next multiple. 4️⃣ Repeat as needed.",
+        "interrupt_type": null
+      },
+      {
+        "type": "number_line",
+        "text": "A number line showing 0 → 10 → 20 → 30 → 40 → 50, with equal spacing between each tick.",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "Why does this pattern work? Because our base‑10 system groups digits in tens. Adding another ten simply shifts the digit in the tens place one step to the left.",
+        "interrupt_type": null
+      },
+      {
+        "type": "note",
+        "text": "In place‑value terms, multiplying by 10 moves every digit one place to the left and inserts a zero in the units place.",
+        "interrupt_type": null
+      },
+      {
+        "type": "example",
+        "text": "Take 237. Multiply by 10: 237 × 10 = 2,370. Notice how each digit moved left and a zero appeared at the end.",
+        "interrupt_type": null
+      },
+      {
+        "type": "checkin",
+        "text": "If you start at 70 and add three more multiples of 10, what number do you reach?",
+        "interrupt_type": "checkin"
+      },
+      {
+        "type": "student_question",
+        "text": "Teach me again.",
+        "interrupt_type": null
+      },
+      {
+        "type": "tutor_answer",
+        "text": "I’m happy to go over that again! The answer to the check‑in is 100 (70 + 10 + 10 + 10 = 100). Now, as we were saying, when you multiply 237 by 10 you shift every digit one place to the left and tack a zero onto the end, giving 2,370—this happens because each place value becomes ten times larger.",
+        "interrupt_type": "checkin"
+      },
+      {
+        "type": "continuation",
+        "text": "Continuing the lesson…",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "Real‑world uses: counting money (dimes, $10 bills), measuring length in centimeters, organizing items in groups of ten, and simplifying mental math (e.g., 10 × 8 = 80).",
+        "interrupt_type": null
+      },
+      {
+        "type": "example",
+        "text": "You have 7 packs of stickers, each pack contains 10 stickers. Total stickers = 10 × 7 = 70.",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "Practice problem: What is the 12th multiple of 10? (Think: 10 × 12.)",
+        "interrupt_type": null
+      },
+      {
+        "type": "note",
+        "text": "End of lesson. Ask a question any time.",
+        "interrupt_type": null
+      }
+    ],
+    "follow_up_questions": [
+      "List the first eight multiples of 10 without using a calculator.",
+      "Explain in one sentence why every multiple of 10 ends with a zero.",
+      "If you know that 10 × 9 = 90, how can you quickly find 10 × 11 using the pattern of multiples?"
+    ],
+    "quiz_score": null,
+    "quiz_total": null,
+    "quiz_results": [],
+    "quiz_at": null
+  },
+  "49eeec80-892c-4cf7-80f8-8146052d05da": {
+    "session_id": "49eeec80-892c-4cf7-80f8-8146052d05da",
+    "course_id": "40321a8b-49a1-4d12-98e4-2b30468d2f94",
+    "topic": "help me write essay on myself",
+    "language": "English",
+    "created_at": "2026-09-21T09:07:11.957246Z",
+    "updated_at": "2026-09-21T09:07:11.957246Z",
+    "blocks": [
+      {
+        "type": "heading",
+        "text": "Getting Started: Brainstorm and Choose a Focus",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "A personal essay is a short piece that tells a story about who you are, what matters to you, or a defining experience. The first step is to decide *what* you want the reader to learn about you.",
+        "interrupt_type": null
+      },
+      {
+        "type": "checkin",
+        "text": "Would you like me to walk through a simpler, step‑by‑step example at a slower pace so we can make sure everything clicks?",
+        "interrupt_type": "checkin"
+      },
+      {
+        "type": "student_question",
+        "text": "I understand — continue",
+        "interrupt_type": null
+      },
+      {
+        "type": "tutor_answer",
+        "text": "Personal Essay Basics Deciding What You Want the Reader to Learn About You A personal essay is a short piece that tells a story about who you are, what matters to you, or a defining experience. The very first step is to choose the single idea you want your reader to walk away with—what you want them to learn about you. For instance, if you want the reader to understand that perseverance defines you, you might focus on a moment when you kept trying despite repeated setbacks, rather than describing every hobby you have. In one sentence, what single idea would you want a reader to remember after reading your personal essay?",
+        "interrupt_type": "checkin"
+      },
+      {
+        "type": "continuation",
+        "text": "Continuing the lesson…",
+        "interrupt_type": null
+      },
+      {
+        "type": "note",
+        "text": "Possible focuses: a hobby that shaped you, a challenge you overcame, a moment of realization, or a core value you live by.",
+        "interrupt_type": null
+      },
+      {
+        "type": "example",
+        "text": "Instead of a vague \"I like reading,\" you could write about \"the summer I discovered mystery novels and how they taught me to think critically.\"",
+        "interrupt_type": null
+      },
+      {
+        "type": "step_flow",
+        "text": "1. List 5‑7 personal experiences or traits you feel proud of. ↓ 2. Highlight the one that evokes the strongest emotion or lesson. ↓ 3. Ask: What does this reveal about my character or growth?",
+        "interrupt_type": null
+      },
+      {
+        "type": "heading",
+        "text": "Organizing Your Thoughts: The Classic Five‑Paragraph Outline",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "A clear structure helps the reader follow your story. The most common framework is: 1️⃣ Introduction – hook + thesis (the main point you’ll prove). 2️⃣ Body Paragraph 1 – first supporting detail.",
+        "interrupt_type": null
+      },
+      {
+        "type": "checkin",
+        "text": "Re-engagement Check-in Quick Re‑hook Would you like me to walk through a simpler example, slow the pace, or try a different approach?",
+        "interrupt_type": "checkin"
+      }
+    ],
+    "follow_up_questions": [
+      "Which part of your personal story do you feel most confident turning into a compelling hook, and why?",
+      "How does each body paragraph you plan to write support the central thesis of your essay?",
+      "What revision strategies will you use to ensure your essay sounds authentic and polished?"
+    ],
+    "quiz_score": null,
+    "quiz_total": null,
+    "quiz_results": [],
+    "quiz_at": null
+  },
+  "e8090f58-c310-40a2-adb9-e4e06d3482c9": {
+    "session_id": "e8090f58-c310-40a2-adb9-e4e06d3482c9",
+    "course_id": "40321a8b-49a1-4d12-98e4-2b30468d2f94",
+    "topic": "hello, explain the meaning of zesty",
+    "language": "English",
+    "created_at": "2026-09-21T09:12:12.509454Z",
+    "updated_at": "2026-09-21T09:12:12.509454Z",
+    "blocks": [
+      {
+        "type": "heading",
+        "text": "Definition, Origins, and Nuances",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "The adjective zesty describes something that has a strong, lively, and often slightly spicy flavor. It can also be used metaphorically to convey energy, enthusiasm, or a spirited character.",
+        "interrupt_type": null
+      },
+      {
+        "type": "note",
+        "text": "While most people first hear “zesty” in the context of food, the word has broadened to describe any experience that feels bright, vivid, or full of pep.",
+        "interrupt_type": null
+      },
+      {
+        "type": "example",
+        "text": "Food example: “The salsa was zesty, with a kick of lime and jalapeño.”",
+        "interrupt_type": null
+      },
+      {
+        "type": "example",
+        "text": "Metaphorical example: “She gave a zesty presentation that kept everyone on the edge of their seats.”",
+        "interrupt_type": null
+      },
+      {
+        "type": "checkin",
+        "text": "Hey, would you like me to walk through a simpler example together at a slower pace?",
+        "interrupt_type": "checkin"
+      }
+    ],
+    "follow_up_questions": [
+      "Give an example of a non‑food situation where you could describe something as ‘zesty.’",
+      "How does the origin of the word ‘zest’ help you remember the meaning of ‘zesty’?",
+      "If a dish is described as both ‘tangy’ and ‘zesty,’ what flavors or sensations would you expect?"
+    ],
+    "quiz_score": null,
+    "quiz_total": null,
+    "quiz_results": [],
+    "quiz_at": null
+  },
+  "d695420f-7694-4c9f-a4e9-82d9effe0c39": {
+    "session_id": "d695420f-7694-4c9f-a4e9-82d9effe0c39",
+    "course_id": "40321a8b-49a1-4d12-98e4-2b30468d2f94",
+    "topic": "teach linear algebra",
+    "language": "English",
+    "created_at": "2026-09-21T10:00:58.297639Z",
+    "updated_at": "2026-09-21T10:00:58.297639Z",
+    "blocks": [
+      {
+        "type": "heading",
+        "text": "Foundations of Linear Algebra",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "Linear algebra is the branch of mathematics that studies vectors, spaces formed by them, and linear transformations between those spaces. It underpins many areas such as computer graphics, data science, engineering, and physics.",
+        "interrupt_type": null
+      },
+      {
+        "type": "note",
+        "text": "A vector is an ordered list of numbers, called components. In an n‑dimensional real space we write \\(\\mathbb{R}^n\\).",
+        "interrupt_type": null
+      }
+    ],
+    "follow_up_questions": [
+      "What does it mean for a set of vectors to span a space?",
+      "How does matrix multiplication differ from component‑wise addition?",
+      "Why is the determinant useful when solving linear systems?"
+    ],
+    "quiz_score": null,
+    "quiz_total": null,
+    "quiz_results": [],
+    "quiz_at": null
+  },
+  "ad619e55-dc7e-4054-a1e6-7bd5a5a06624": {
+    "session_id": "ad619e55-dc7e-4054-a1e6-7bd5a5a06624",
+    "course_id": "7684d71c-27c9-48de-8cf4-7b337af181de",
+    "topic": "Explain how photosynthesis works",
+    "language": "English",
+    "created_at": "2026-09-21T10:14:41.517580Z",
+    "updated_at": "2026-09-21T10:14:41.517580Z",
+    "blocks": [
+      {
+        "type": "heading",
+        "text": "How Light Becomes Chemical Energy",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "Photosynthesis is the process by which green plants, algae, and some bacteria capture light energy and turn it into chemical energy stored in molecules like sugars.",
+        "interrupt_type": null
+      }
+    ],
+    "follow_up_questions": [
+      "What is the primary pigment that captures light in most plants?",
+      "Why does chlorophyll appear green to our eyes?",
+      "How does the energy captured from light end up in a sugar molecule?"
+    ],
+    "quiz_score": null,
+    "quiz_total": null,
+    "quiz_results": [],
+    "quiz_at": null
+  },
+  "436e5bce-5fe6-41ca-9bbe-fd3e219bc276": {
+    "session_id": "436e5bce-5fe6-41ca-9bbe-fd3e219bc276",
+    "course_id": "7684d71c-27c9-48de-8cf4-7b337af181de",
+    "topic": "Explain how photosynthesis works",
+    "language": "English",
+    "created_at": "2026-09-21T10:17:33.014760Z",
+    "updated_at": "2026-09-21T10:17:33.014760Z",
+    "blocks": [
+      {
+        "type": "heading",
+        "text": "Photosynthesis Overview",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "Photosynthesis is the process by which plants, algae, and some bacteria turn sunlight into usable chemical energy.",
+        "interrupt_type": null
+      },
+      {
+        "type": "note",
+        "text": "Key terms: Photosynthesis: conversion of light energy into chemical energy. Chlorophyll: the green pigment that captures light. Chemical energy: energy stored in the bonds of molecules such as glucose.",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "At its core, photosynthesis converts light into chemical energy. The light energy is captured and stored in the form of high‑energy molecules that the cell can later use.",
+        "interrupt_type": null
+      },
+      {
+        "type": "example",
+        "text": "Think of a solar panel on a roof. The panel captures sunlight and turns it into electricity that powers a home. In a similar way, chlorophyll captures sunlight and turns it into chemical energy that powers the plant.",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "The pigment chlorophyll is especially good at absorbing red and blue wavelengths of light. These colors provide the energy needed to drive the reactions of photosynthesis.",
+        "interrupt_type": null
+      },
+      {
+        "type": "note",
+        "text": "Absorption spectrum: Chlorophyll reflects green light (which is why leaves look green) and absorbs strongly in the red (~660 nm) and blue (~430 nm) regions.",
+        "interrupt_type": null
+      }
+    ],
+    "follow_up_questions": [
+      "What are the two main energy‑carrier molecules produced in the light‑dependent reactions?",
+      "Why does chlorophyll appear green even though it absorbs red and blue light?",
+      "How does the Calvin Cycle use ATP and NADPH to create glucose?"
+    ],
+    "quiz_score": null,
+    "quiz_total": null,
+    "quiz_results": [],
+    "quiz_at": null
+  },
+  "8c7a3d09-c83a-49f6-aff2-986a84bfd0ae": {
+    "session_id": "8c7a3d09-c83a-49f6-aff2-986a84bfd0ae",
+    "course_id": "7684d71c-27c9-48de-8cf4-7b337af181de",
+    "topic": "Explain how photosynthesis works",
+    "language": "English",
+    "created_at": "2026-09-21T10:19:44.577189Z",
+    "updated_at": "2026-09-21T10:19:44.577189Z",
+    "blocks": [
+      {
+        "type": "heading",
+        "text": "Page 1 – Light Capture and Energy Conversion",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "Photosynthesis is the process by which certain organisms, most famously green plants, turn sunlight into usable chemical energy.",
+        "interrupt_type": null
+      },
+      {
+        "type": "note",
+        "text": "General background: The overall reaction is often written as \\[6\\,\\text{CO}_2 + 6\\,\\text{H}_2\\text{O} + \\text{light energy} \\rightarrow \\text{C}_6\\text{H}_{12}\\text{O}_6 + 6\\,\\text{O}_2\\]",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "At its core, photosynthesis converts the energy carried by photons (light particles) into chemical bonds that store energy in molecules.",
+        "interrupt_type": null
+      },
+      {
+        "type": "example",
+        "text": "Think of a solar panel: sunlight hits the panel, electrons are excited, and the panel stores that energy as electricity. In plants, chlorophyll does the same job, but stores the energy in sugar molecules.",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "The key pigment that captures light is chlorophyll. It is a green molecule embedded in the thylakoid membranes of chloroplasts.",
+        "interrupt_type": null
+      },
+      {
+        "type": "note",
+        "text": "Chlorophyll absorbs light most efficiently in the red (≈ 660 nm) and blue (≈ 430 nm) regions of the spectrum, while reflecting green light, which is why plants appear green.",
+        "interrupt_type": null
+      },
+      {
+        "type": "example",
+        "text": "If you shine a red laser pointer on a leaf, the leaf will look darker because chlorophyll soaks up that red light. Shine a green flashlight and the leaf looks brighter because the green light is mostly reflected.",
+        "interrupt_type": null
+      },
+      {
+        "type": "step_flow",
+        "text": "1️⃣ Photon hits chlorophyll → 2️⃣ Chlorophyll electrons are excited → 3️⃣ Excited electrons travel through the photosynthetic electron transport chain → 4️⃣ Energy from electrons is used to pump protons, creating a gradient → 5️⃣ Gradient drives synthesis of ATP (energy‑currency) → 6️⃣ Simultaneously, NADP⁺ is reduced to NADPH → 7️⃣ ATP and NADPH carry the captured light energy into the next stage of photosynthesis (the Calvin cycle).",
+        "interrupt_type": null
+      },
+      {
+        "type": "checkin",
+        "text": "Which two colors of light does chlorophyll absorb most strongly? (Answer with the color names.)",
+        "interrupt_type": "checkin"
+      },
+      {
+        "type": "student_question",
+        "text": "I understand — continue",
+        "interrupt_type": null
+      }
+    ],
+    "follow_up_questions": [
+      "Why does chlorophyll appear green to our eyes?",
+      "What is the role of ATP and NADPH in photosynthesis?",
+      "How does the absorption of red and blue light give plants an advantage in natural sunlight?"
+    ],
+    "quiz_score": null,
+    "quiz_total": null,
+    "quiz_results": [],
+    "quiz_at": null
+  },
+  "3bf369ed-97d8-49e3-91e2-e56abe2f8b05": {
+    "session_id": "3bf369ed-97d8-49e3-91e2-e56abe2f8b05",
+    "course_id": "7684d71c-27c9-48de-8cf4-7b337af181de",
+    "topic": "Explain how photosynthesis works",
+    "language": "English",
+    "created_at": "2026-09-21T10:22:02.470132Z",
+    "updated_at": "2026-09-21T10:22:02.470132Z",
+    "blocks": [
+      {
+        "type": "heading",
+        "text": "Overview of Photosynthesis",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "Photosynthesis is the process by which green plants, algae, and some bacteria capture sunlight and transform it into chemical energy stored in organic molecules.",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "In simple terms, light energy becomes the fuel that drives the synthesis of sugars.",
+        "interrupt_type": null
+      },
+      {
+        "type": "note",
+        "text": "The overall reaction can be summarized as: carbon dioxide + water + light energy → glucose + oxygen. This conversion is the foundation of most life on Earth because it creates the organic matter and oxygen that other organisms depend on.",
+        "interrupt_type": null
+      },
+      {
+        "type": "heading",
+        "text": "Light Absorption by Chlorophyll",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "The primary light‑absorbing pigment in plant cells is chlorophyll, located in the thylakoid membranes of chloroplasts.",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "Chlorophyll molecules have a structure that allows them to capture photons most efficiently in the red (~660 nm) and blue (~430 nm) regions of the visible spectrum.",
+        "interrupt_type": null
+      },
+      {
+        "type": "example",
+        "text": "Think of chlorophyll as a solar panel tuned to specific colors. Just as a solar panel converts sunlight into electricity, chlorophyll converts red and blue photons into excited electrons that start the energy‑conversion chain.",
+        "interrupt_type": null
+      },
+      {
+        "type": "checkin",
+        "text": "Which wavelengths of light are most efficiently absorbed by chlorophyll? (Answer with the color range.)",
+        "interrupt_type": "checkin"
+      },
+      {
+        "type": "student_question",
+        "text": "I understand — continue",
+        "interrupt_type": null
+      }
+    ],
+    "follow_up_questions": [
+      "Why is the splitting of water (photolysis) essential for the light‑dependent reactions?",
+      "How do the products of the light‑dependent reactions (ATP and NADPH) contribute to the Calvin cycle?",
+      "What would happen to the overall photosynthetic process if chlorophyll could not absorb red light?"
+    ],
+    "quiz_score": null,
+    "quiz_total": null,
+    "quiz_results": [],
+    "quiz_at": null
+  },
+  "b72f0449-9601-43d0-a29c-ca51e12cbfd5": {
+    "session_id": "b72f0449-9601-43d0-a29c-ca51e12cbfd5",
+    "course_id": "40321a8b-49a1-4d12-98e4-2b30468d2f94",
+    "topic": "help me write essay on myslf",
+    "language": "English",
+    "created_at": "2026-09-21T10:50:08.314026Z",
+    "updated_at": "2026-09-21T10:50:08.314026Z",
+    "blocks": [
+      {
+        "type": "heading",
+        "text": "Steps to Write a Strong Personal Essay",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "A personal essay is a short piece of nonfiction that tells a story about you, highlights a particular experience, or reflects on an aspect of your identity.",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "Its purpose is to give the reader a clear sense of who you are, what matters to you, and how you think.",
+        "interrupt_type": null
+      },
+      {
+        "type": "checkin",
+        "text": "Quick Re-engagement Check-in Check-in Would you like me to walk through a simpler example together, slow the pace, or try a different approach?",
+        "interrupt_type": "checkin"
+      },
+      {
+        "type": "student_question",
+        "text": "Slow down",
+        "interrupt_type": null
+      },
+      {
+        "type": "tutor_answer",
+        "text": "Crafting a Clear Personal Introduction Purpose of the Introduction I hear you—let's take it a step slower. Think of the opening paragraph of an essay like a friendly handshake: it tells the reader who you are, what you care about, and how you see the world. For example, instead of saying \"I love writing,\" you might write, \"As a lifelong storyteller fascinated by how ordinary moments become extraordinary, I aim to share narratives that reveal hidden emotions.\" This sentence instantly shows your identity (a storyteller), your values (finding meaning in everyday life), and your perspective (revealing hidden emotions). By being specific, you give the reader a vivid sense of you, which makes them want to keep reading. Now that we’ve unpacked that, let’s move on to how to structure that paragraph effectively.",
+        "interrupt_type": "checkin"
+      }
+    ],
+    "follow_up_questions": [
+      "How does a thesis statement help keep your essay focused?",
+      "What is one effective way to start the introduction of a personal essay?",
+      "Why is reflection important in each body paragraph?"
+    ],
+    "quiz_score": null,
+    "quiz_total": null,
+    "quiz_results": [],
+    "quiz_at": null
+  },
+  "1c733311-54b4-4f14-8e4b-8ab34d8e1738": {
+    "session_id": "1c733311-54b4-4f14-8e4b-8ab34d8e1738",
+    "course_id": "3604d09f-ae55-4d95-bd4b-823869564cd3",
+    "topic": "Explain the water cycle",
+    "language": "English",
+    "created_at": "2026-09-21T11:06:22.417918Z",
+    "updated_at": "2026-09-21T11:06:22.417918Z",
+    "blocks": [
+      {
+        "type": "heading",
+        "text": "Lesson Title: The Water Cycle – How Water Moves Around Our Planet --- 1.",
+        "interrupt_type": null
+      },
+      {
+        "type": "student_question",
+        "text": "What is the most important step in the water cycle?",
+        "interrupt_type": null
+      },
+      {
+        "type": "tutor_answer",
+        "text": "1. Evaporation is the primary driver, turning liquid water into vapor that begins the cycle.\n2. Without condensation and precipitation, the vapor wouldn't return, so all steps are essential together.",
+        "interrupt_type": null
+      },
+      {
+        "type": "continuation",
+        "text": "Continuing the lesson…",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "Introduction – Why the Water Cycle Matters Think of Earth as a giant, living organism.",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "Just as our bodies need a constant supply of water to stay healthy, the planet relies on a continuous movement of water to regulate climate, support ecosystems, and provide the fresh water we drink.",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "This endless journey of water is called the hydrologic cycle or water cycle.",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "--- 2.",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "The Four Core Processes | Process | What Happens?",
+        "interrupt_type": null
+      },
+      {
+        "type": "note",
+        "text": "| Why It’s Important | |---------|---------------|--------------------| | Evaporation | Sunlight heats water in oceans, lakes, rivers, and even moist soil.",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "The water molecules gain enough energy to break free from the liquid surface and become water vapor (gas).",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "| Moves water from the surface into the atmosphere, beginning the cycle.",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "| | Transpiration | Plants take up water through their roots and release it as vapor through tiny pores in their leaves called stomata.",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "| Adds extra moisture to the air, especially in forested areas, and helps cool plants.",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "| | Condensation | As water vapor rises, it encounters cooler temperatures.",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "The vapor cools and changes back into tiny liquid droplets, forming clouds.",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "| Collects water in the atmosphere, preparing it for precipitation.",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "| | Precipitation | When cloud droplets grow large enough, gravity pulls them down as rain, snow, sleet, or hail.",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "| Returns water to the land and oceans, replenishing supplies for ecosystems and human use.",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "| *Note:* Sublimation (solid ice turning directly into vapor) and deposition (vapor turning directly into ice) are additional, less‑common steps that occur in cold, high‑altitude regions.",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "--- 3.",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "The Journey Continues – Runoff and Infiltration Runoff: After precipitation lands, water that doesn’t soak into the ground flows over the surface, traveling through streams, rivers, and eventually back to the oceans.",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "Infiltration: Some water seeps into the soil, moving downward through pores and cracks.",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "This water can become groundwater, stored in aquifers for months, years, or even centuries.",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "Groundwater can later re‑emerge as springs or be drawn up by plant roots, feeding the transpiration process again.",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "--- 4.",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "Energy Driving the Cycle The sun is the ultimate engine.",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "Solar radiation provides the heat needed for evaporation and sublimation.",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "Without the sun’s energy, water would stay locked in liquid or solid form, and the cycle would stall.",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "This is why the water cycle is tightly linked to Earth’s climate system.",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "--- 5.",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "Real‑World Analogy Imagine a giant, invisible “water conveyor belt” that circles the globe: 1.",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "Boiling pot – The ocean is like a massive pot of water being heated by the stove (the sun).",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "2.",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "Steam rising – The steam that escapes is the water vapor (evaporation).",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "3.",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "Condensing lid – When the steam hits the cooler lid, droplets form (condensation → clouds).",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "4.",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "Dripping back – The droplets fall back into the pot as rain (precipitation).",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "5.",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "Overflow – Some water runs off the sides into a drain (runoff) and eventually returns to the pot, completing the loop.",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "--- 6.",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "Human Impacts Urbanization creates more impermeable surfaces (concrete, asphalt), reducing infiltration and increasing runoff, which can cause flooding.",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "Deforestation removes trees that would normally transpire water, altering local humidity and potentially reducing rainfall.",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "Climate change can shift temperature patterns, affecting evaporation rates and the distribution of precipitation worldwide.",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "Understanding the water cycle helps us predict weather, manage water resources, and mitigate environmental problems.",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "--- 7.",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "Quick Recap – The Cycle in One Sentence *Water evaporates from surfaces, rises and condenses into clouds, falls as precipitation, and then returns to oceans and land via runoff and infiltration, where the process starts again.",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "* --- Check‑In Question *“When water vapor rises and cools, it changes back into tiny liquid droplets.",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "What is this process called, and why is it essential for forming clouds?",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "”* (Feel free to answer aloud; we’ll continue once you’ve thought it through.",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": ")",
+        "interrupt_type": null
+      },
+      {
+        "type": "note",
+        "text": "End of lesson. Ask a question any time.",
+        "interrupt_type": null
+      }
+    ],
+    "follow_up_questions": [],
+    "quiz_score": null,
+    "quiz_total": null,
+    "quiz_results": [],
+    "quiz_at": null
+  },
+  "d47047e1-5baf-4a9d-8119-4e6c4b576214": {
+    "session_id": "d47047e1-5baf-4a9d-8119-4e6c4b576214",
+    "course_id": "3604d09f-ae55-4d95-bd4b-823869564cd3",
+    "topic": "Explain the water cycle",
+    "language": "English",
+    "created_at": "2026-09-21T11:14:22.267058Z",
+    "updated_at": "2026-09-21T11:14:22.267058Z",
+    "blocks": [
+      {
+        "type": "heading",
+        "text": "Understanding the Water Cycle",
+        "interrupt_type": null
+      },
+      {
+        "type": "student_question",
+        "text": "What is the most important step in the water cycle?",
+        "interrupt_type": null
+      },
+      {
+        "type": "tutor_answer",
+        "text": "1. Evaporation is the primary driver, moving water upward.\n2. Without evaporation, the rest of the cycle cannot occur.",
+        "interrupt_type": null
+      },
+      {
+        "type": "continuation",
+        "text": "Continuing the lesson…",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "The water cycle, also called the hydrologic cycle, is the continuous movement of water on, above, and below the surface of the Earth. It links the atmosphere, oceans, land, and living organisms in a never‑ending loop.",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "The cycle is driven primarily by solar energy, which supplies the heat needed for water to change states—solid, liquid, and gas—and by gravity, which pulls water downward.",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "We can break the cycle into a series of key processes: evaporation, transpiration, condensation, precipitation, collection, runoff, infiltration, and groundwater flow.",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "Let's start at the surface with evaporation.",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "Evaporation is the transformation of liquid water into water vapor (a gas) because of heat. It occurs when the sun's rays warm bodies of water—oceans, lakes, rivers, and even moist soil.",
+        "interrupt_type": null
+      },
+      {
+        "type": "example",
+        "text": "Imagine a shallow puddle after a rainstorm. On a sunny afternoon, the water disappears even though you can't see it flow away.",
+        "interrupt_type": null
+      },
+      {
+        "type": "example",
+        "text": "The water molecules have absorbed solar heat, gained enough kinetic energy to break free from the liquid surface, and rise into the air as invisible vapor.",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "Next comes transpiration, which is essentially evaporation from plants.",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "Plants absorb water through their roots, move it up through tiny vessels, and release it as vapor through microscopic pores called stomata on their leaves.",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "This process returns a huge amount of water to the atmosphere—roughly the same volume as all the world's rivers combined.",
+        "interrupt_type": null
+      },
+      {
+        "type": "example",
+        "text": "Think of a forest on a warm day. As the sun heats the canopy, you can feel moisture on your skin. That moisture is water vapor that the trees have transpired.",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "When water vapor rises, it cools. Cooling causes the vapor to change back into tiny liquid droplets or ice crystals—a process called condensation.",
+        "interrupt_type": null
+      },
+      {
+        "type": "diagram",
+        "text": "Diagram description: Warm, moist air ascends, cools, and reaches its dew point. Water vapor condenses onto tiny particles (dust, salt) forming a cloud. The cloud appears as a fluffy white mass when many droplets cluster together.",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "Condensation is the birth of clouds. The tiny droplets are so small they stay suspended, but as they collide and grow, they become heavy enough to fall.",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "When gravity overcomes the upward forces, the water returns to Earth as precipitation.",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "Precipitation includes rain, snow, sleet, and hail. The form depends on the temperature profile of the atmosphere as the droplets fall.",
+        "interrupt_type": null
+      },
+      {
+        "type": "example",
+        "text": "A summer thunderstorm drops rain because the air near the ground is warm. In winter, the same cloud may produce snow if the temperature stays below freezing all the way to the surface.",
+        "interrupt_type": null
+      },
+      {
+        "type": "checkin",
+        "text": "Can you name the three main processes that move water from Earth's surface up into the atmosphere?",
+        "interrupt_type": "checkin"
+      },
+      {
+        "type": "note",
+        "text": "End of lesson. Ask a question any time.",
+        "interrupt_type": null
+      }
+    ],
+    "follow_up_questions": [
+      "How does transpiration differ from evaporation, and why is it important for the water cycle?",
+      "What factors influence the rate of infiltration into soil?",
+      "Explain how climate change could affect the frequency of precipitation events."
+    ],
+    "quiz_score": null,
+    "quiz_total": null,
+    "quiz_results": [],
+    "quiz_at": null
+  },
+  "ffc26413-f24e-4846-b126-f40c6330671e": {
+    "session_id": "ffc26413-f24e-4846-b126-f40c6330671e",
+    "course_id": "40321a8b-49a1-4d12-98e4-2b30468d2f94",
+    "topic": "explain HCF",
+    "language": "English",
+    "created_at": "2026-09-21T11:35:46.153527Z",
+    "updated_at": "2026-09-21T11:35:46.153527Z",
+    "blocks": [
+      {
+        "type": "heading",
+        "text": "What is HCF and How to Find It",
+        "interrupt_type": null
+      }
+    ],
+    "follow_up_questions": [
+      "Define the Highest Common Factor (HCF) in your own words.",
+      "Use the Euclidean algorithm to find the HCF of 56 and 98.",
+      "Explain how the HCF and LCM of two numbers are related."
+    ],
+    "quiz_score": null,
+    "quiz_total": null,
+    "quiz_results": [],
+    "quiz_at": null
+  },
+  "1496414e-7125-4004-bfb4-684183c56edf": {
+    "session_id": "1496414e-7125-4004-bfb4-684183c56edf",
+    "course_id": "0ddde89c-fe74-404f-9341-437075fed078",
+    "topic": "Explain the water cycle",
+    "language": "English",
+    "created_at": "2026-09-21T11:52:40.185887Z",
+    "updated_at": "2026-09-21T11:52:40.185887Z",
+    "blocks": [
+      {
+        "type": "heading",
+        "text": "The Water Cycle",
+        "interrupt_type": null
+      },
+      {
+        "type": "student_question",
+        "text": "What is the most important step in the water cycle?",
+        "interrupt_type": null
+      },
+      {
+        "type": "tutor_answer",
+        "text": "1. Evaporation is the key step, moving water from Earth’s surface into the atmosphere.\n2. Condensation follows, forming clouds that enable precipitation to return water to land.",
+        "interrupt_type": null
+      },
+      {
+        "type": "continuation",
+        "text": "Continuing the lesson…",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "The water cycle, also called the hydrologic cycle, is the continuous movement of water on, above, and below the surface of the Earth. It redistributes water in all its forms—liquid, vapor, and ice—through a series of linked processes.",
+        "interrupt_type": null
+      },
+      {
+        "type": "note",
+        "text": "Key terms you’ll encounter: Evaporation: water turning from liquid to vapor. Condensation: vapor cooling to form liquid droplets. Precipitation: water falling as rain, snow, sleet, or hail. Infiltration: water soaking into the ground.",
+        "interrupt_type": null
+      },
+      {
+        "type": "note",
+        "text": "Runoff: water flowing over land into streams and rivers. Transpiration: water vapor released by plants. Sublimation: solid ice turning directly into vapor.",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "1️⃣ Evaporation occurs when solar energy heats surface water—oceans, lakes, rivers, or even puddles—causing molecules to escape into the atmosphere as water vapor.",
+        "interrupt_type": null
+      },
+      {
+        "type": "example",
+        "text": "Imagine a shallow puddle after a rainstorm. On a sunny day, the water disappears within hours. That disappearance is evaporation: the sun’s heat provides the energy needed for water molecules to break free and rise.",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "2️⃣ Condensation happens when that water vapor rises, cools, and turns back into tiny liquid droplets. These droplets cluster around dust particles, forming clouds.",
+        "interrupt_type": null
+      },
+      {
+        "type": "diagram",
+        "text": "Visualize a simple diagram: a sun shining on a body of water, arrows showing vapor rising, cooling, and gathering into a fluffy cloud shape.",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "3️⃣ Precipitation is the release of water from clouds when droplets become heavy enough to fall. Depending on temperature, this can be rain, snow, sleet, or hail.",
+        "interrupt_type": null
+      },
+      {
+        "type": "example",
+        "text": "In a warm summer storm, you experience rain—liquid droplets falling. In a winter storm, the same process yields snowflakes, which are frozen crystals of water.",
+        "interrupt_type": null
+      },
+      {
+        "type": "checkin",
+        "text": "Quick check: What is the name of the process that moves water from the Earth's surface into the atmosphere as vapor?",
+        "interrupt_type": "checkin"
+      },
+      {
+        "type": "note",
+        "text": "End of lesson. Ask a question any time.",
+        "interrupt_type": null
+      }
+    ],
+    "follow_up_questions": [
+      "How does the temperature of the atmosphere influence whether precipitation falls as rain or snow?",
+      "Explain how urbanization can affect infiltration and runoff in a watershed.",
+      "Why is the concept of evapotranspiration important when estimating water availability in a region?"
+    ],
+    "quiz_score": null,
+    "quiz_total": null,
+    "quiz_results": [],
+    "quiz_at": null
+  },
+  "c04049d9-9be6-440b-bca7-92c098b6ab7e": {
+    "session_id": "c04049d9-9be6-440b-bca7-92c098b6ab7e",
+    "course_id": "0ddde89c-fe74-404f-9341-437075fed078",
+    "topic": "Explain the water cycle",
+    "language": "English",
+    "created_at": "2026-09-21T11:54:38.123940Z",
+    "updated_at": "2026-09-21T11:54:38.123940Z",
+    "blocks": [
+      {
+        "type": "heading",
+        "text": "Understanding the Water Cycle",
+        "interrupt_type": null
+      },
+      {
+        "type": "student_question",
+        "text": "What is the most important step in the water cycle?",
+        "interrupt_type": null
+      },
+      {
+        "type": "tutor_answer",
+        "text": "1. Evaporation drives the cycle by moving water into the atmosphere.\n2. Condensation forms clouds, leading to precipitation that returns water to Earth.",
+        "interrupt_type": null
+      },
+      {
+        "type": "continuation",
+        "text": "Continuing the lesson…",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "The water cycle, also called the hydrologic cycle, describes the continuous movement of water on, above, and below the surface of the Earth.",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "It is powered primarily by solar energy and gravity, and it connects the atmosphere, land, and oceans into a single, dynamic system.",
+        "interrupt_type": null
+      },
+      {
+        "type": "note",
+        "text": "Key terms: Evaporation: conversion of liquid water to water vapor, mainly from oceans, lakes, and soils. Transpiration: release of water vapor from plant leaves. Condensation: cooling of water vapor to form liquid droplets, creating clouds.",
+        "interrupt_type": null
+      },
+      {
+        "type": "note",
+        "text": "Precipitation: any form of water—rain, snow, sleet, hail—that falls to Earth. Infiltration: movement of water from the surface into the soil. Runoff: water that flows over the land surface into streams and rivers.",
+        "interrupt_type": null
+      },
+      {
+        "type": "example",
+        "text": "Imagine a sunny summer day at a large lake. The sun’s heat supplies energy that causes surface water to evaporate. Tiny water molecules escape into the air, forming invisible water vapor.",
+        "interrupt_type": null
+      },
+      {
+        "type": "equation",
+        "text": "A simple expression for the evaporation rate (E) is: \\[ E = \\frac{(e_s - e_a) \\cdot f(u)}{\\lambda} \\] where \\(e_s\\) is the saturation vapor pressure at the water surface temperature, \\(e_a\\) is the actual vapor pressure of the air, \\(f(u)\\) is a wind function, and \\(\\lambda\\) is the latent heat of vaporization.",
+        "interrupt_type": null
+      },
+      {
+        "type": "step_flow",
+        "text": "1️⃣ Evaporation & Transpiration – Sun heats water → water vapor rises. 2️⃣ Condensation – Vapor cools at higher altitudes → cloud droplets form. 3️⃣ Precipitation – Droplets grow → fall as rain/snow. 4️⃣ Infiltration – Some water soaks into soil → recharges groundwater. 5️⃣ Runoff – Excess water flows over land → returns to rivers, lakes, oceans. 6️⃣ Collection – Water gathers in oceans, completing the loop.",
+        "interrupt_type": null
+      },
+      {
+        "type": "diagram",
+        "text": "A simplified diagram of the water cycle (drawn on the board): Sun at top, arrows pointing down to oceans (evaporation) and forests (transpiration). Rising arrows to clouds (condensation). Downward arrows from clouds to land (precipitation). Split arrows from land: one into soil (infiltration), another across surface (runoff) back to the ocean.",
+        "interrupt_type": null
+      },
+      {
+        "type": "checkin",
+        "text": "Quick check: What is the name of the process that turns invisible water vapor into visible cloud droplets?",
+        "interrupt_type": "checkin"
+      },
+      {
+        "type": "note",
+        "text": "End of lesson. Ask a question any time.",
+        "interrupt_type": null
+      }
+    ],
+    "follow_up_questions": [
+      "How does transpiration differ from evaporation, and why are both important for the water cycle?",
+      "Explain how groundwater infiltration contributes to the long‑term storage of water in the cycle.",
+      "What are two ways human activities can alter the natural water cycle, and what are the potential consequences?",
+      "If the sun’s energy were to increase significantly, which stages of the water cycle would be most directly affected and why?"
+    ],
+    "quiz_score": null,
+    "quiz_total": null,
+    "quiz_results": [],
+    "quiz_at": null
+  },
+  "0db81281-2aa1-4594-ad9a-087b53d0f443": {
+    "session_id": "0db81281-2aa1-4594-ad9a-087b53d0f443",
+    "course_id": "40321a8b-49a1-4d12-98e4-2b30468d2f94",
+    "topic": "explain HCF",
+    "language": "English",
+    "created_at": "2026-09-21T12:00:02.769619Z",
+    "updated_at": "2026-09-21T12:00:02.769619Z",
+    "blocks": [
+      {
+        "type": "heading",
+        "text": "What is HCF?",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "The Highest Common Factor, often abbreviated as HCF, is the largest positive integer that divides two or more integers without leaving a remainder. It is also known as the Greatest Common Divisor (GCD).",
+        "interrupt_type": null
+      },
+      {
+        "type": "student_question",
+        "text": "ncm",
+        "interrupt_type": null
+      },
+      {
+        "type": "tutor_answer",
+        "text": "1. HCF stands for Highest Common Factor, the greatest integer dividing given numbers exactly.\n2. It is also called the Greatest Common Divisor, or GCD.",
+        "interrupt_type": null
+      }
+    ],
+    "follow_up_questions": [
+      "How would you use the HCF to simplify the fraction 84/126?",
+      "Explain why the Euclidean algorithm always terminates with the correct HCF.",
+      "If three numbers are 30, 45, and 75, what is their HCF and which method would you use to find it most efficiently?"
+    ],
+    "quiz_score": null,
+    "quiz_total": null,
+    "quiz_results": [],
+    "quiz_at": null
+  },
+  "17fa75cb-ca5b-4ae7-9ae4-804a05b8b46c": {
+    "session_id": "17fa75cb-ca5b-4ae7-9ae4-804a05b8b46c",
+    "course_id": "c8400cb5-2f1a-4509-87b3-40b51513c0a8",
+    "topic": "Explain HCF",
+    "language": "English",
+    "created_at": "2026-09-21T12:30:01.941280Z",
+    "updated_at": "2026-09-21T12:30:01.941280Z",
+    "blocks": [
+      {
+        "type": "heading",
+        "text": "What is HCF?",
+        "interrupt_type": null
+      },
+      {
+        "type": "student_question",
+        "text": "Mujhe yeh concept samjhao",
+        "interrupt_type": null
+      },
+      {
+        "type": "tutor_answer",
+        "text": "1. HCF do ya zyada numbers ka sab se bara common divisor hota hai.\n2. Isay find karne ke liye prime factorization ya Euclidean algorithm use karte hain.\n3. Example: 12 aur 18 ka HCF 6 hai, kyunke 6 dono ko divide karta hai.",
+        "interrupt_type": null
+      },
+      {
+        "type": "continuation",
+        "text": "Continuing the lesson…",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "The highest common factor (HCF) of two numbers is the largest number that divides both without leaving a remainder.",
+        "interrupt_type": null
+      },
+      {
+        "type": "note",
+        "text": "General background: Knowing the HCF helps simplify fractions, solve ratio problems, and find common measurement units.",
+        "interrupt_type": null
+      },
+      {
+        "type": "example",
+        "text": "Find the HCF of 12 and 18.",
+        "interrupt_type": null
+      },
+      {
+        "type": "step_flow",
+        "text": "Method 1 – Prime factorisation: 1. Write each number as a product of prime factors. 2. Identify the primes that appear in both factorizations. 3. Multiply those common primes together – the result is the HCF.",
+        "interrupt_type": null
+      },
+      {
+        "type": "example",
+        "text": "Prime factorisation of 12 = 2 × 2 × 3; Prime factorisation of 18 = 2 × 3 × 3. Common primes: 2 and 3. HCF = 2 × 3 = 6.",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "Method 2 – Euclidean algorithm (works especially well for larger numbers).",
+        "interrupt_type": null
+      },
+      {
+        "type": "step_flow",
+        "text": "Euclidean steps for 12 and 18: 1. Divide the larger number (18) by the smaller (12): 18 = 12 × 1 + 6. 2. Replace the larger number with the smaller (12) and the smaller with the remainder (6). 3. Repeat: 12 = 6 × 2 + 0. 4. When the remainder becomes 0, the last non‑zero remainder (6) is the HCF.",
+        "interrupt_type": null
+      },
+      {
+        "type": "example",
+        "text": "Applying the Euclidean algorithm to 12 and 18 gives a final non‑zero remainder of 6, so HCF = 6.",
+        "interrupt_type": null
+      },
+      {
+        "type": "checkin",
+        "text": "What is the HCF of 12 and 18? (Answer verbally before we continue.)",
+        "interrupt_type": "checkin"
+      },
+      {
+        "type": "note",
+        "text": "End of lesson. Ask a question any time.",
+        "interrupt_type": null
+      }
+    ],
+    "follow_up_questions": [
+      "Define the highest common factor in your own words.",
+      "Use the Euclidean algorithm to find the HCF of 20 and 30.",
+      "Explain why knowing the HCF is useful when simplifying the fraction 45/60."
+    ],
+    "quiz_score": null,
+    "quiz_total": null,
+    "quiz_results": [],
+    "quiz_at": null
+  },
+  "5d9921ac-a97c-48c0-80ad-24022985a7df": {
+    "session_id": "5d9921ac-a97c-48c0-80ad-24022985a7df",
+    "course_id": "c8400cb5-2f1a-4509-87b3-40b51513c0a8",
+    "topic": "Explain HCF",
+    "language": "English",
+    "created_at": "2026-09-21T12:31:41.023611Z",
+    "updated_at": "2026-09-21T12:31:41.023611Z",
+    "blocks": [
+      {
+        "type": "heading",
+        "text": "What is HCF?",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "The highest common factor (HCF) of two numbers is the largest integer that divides both numbers exactly, leaving no remainder.",
+        "interrupt_type": null
+      },
+      {
+        "type": "note",
+        "text": "HCF is also called the greatest common divisor (GCD). The two terms are interchangeable.",
+        "interrupt_type": null
+      },
+      {
+        "type": "example",
+        "text": "Find the HCF of 12 and 18 by listing all factors.",
+        "interrupt_type": null
+      },
+      {
+        "type": "step_flow",
+        "text": "1. List the factors of each number. Factors of 12: 1, 2, 3, 4, 6, 12 Factors of 18: 1, 2, 3, 6, 9, 18 2. Identify the common factors: 1, 2, 3, 6. 3. Choose the largest common factor: 6. Thus, HCF(12, 18) = 6.",
+        "interrupt_type": null
+      },
+      {
+        "type": "example",
+        "text": "Prime‑factorisation method for the same pair (12 and 18).",
+        "interrupt_type": null
+      },
+      {
+        "type": "step_flow",
+        "text": "1. Write each number as a product of prime factors. 12 = 2 × 2 × 3 = 2²·3 18 = 2 × 3 × 3 = 2·3² 2. Identify the common prime factors with the smallest exponents. Common primes: 2 (min exponent 1) and 3 (min exponent 1). 3. Multiply these common primes: 2¹·3¹ = 2·3 = 6. Hence, HCF(12, 18) = 6.",
+        "interrupt_type": null
+      },
+      {
+        "type": "example",
+        "text": "Euclidean algorithm method for 12 and 18.",
+        "interrupt_type": null
+      },
+      {
+        "type": "step_flow",
+        "text": "1. Divide the larger number by the smaller and keep the remainder. 18 ÷ 12 = 1 remainder 6. 2. Replace the larger number with the smaller, and the smaller with the remainder. New pair: (12, 6). 3. Repeat until the remainder is 0. 12 ÷ 6 = 2 remainder 0. 4. The last non‑zero remainder is the HCF. Thus, HCF(12, 18) = 6.",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "Why do we care about the HCF? It lets us simplify fractions, solve word problems involving grouping, and find least common multiples (LCM) efficiently.",
+        "interrupt_type": null
+      },
+      {
+        "type": "checkin",
+        "text": "Based on the factor‑listing method we just used, what is the HCF of 12 and 18?",
+        "interrupt_type": "checkin"
+      },
+      {
+        "type": "student_question",
+        "text": "Mujhe yeh concept samjhao",
+        "interrupt_type": null
+      },
+      {
+        "type": "tutor_answer",
+        "text": "Bilkul, aapka sawal samajh aaya—HCF 12 aur 18 ka 6 hota hai, kyun ke dono ke common factors 1, 2, 3, 6 hain aur sab se bara 6 hai. Yeh HCF hume fractions ko asaan tareeqe se simplify karne, grouping‑type word problems solve karne, aur LCM nikalne mein bohat madad karta hai.",
+        "interrupt_type": "checkin"
+      },
+      {
+        "type": "continuation",
+        "text": "Continuing the lesson…",
+        "interrupt_type": null
+      },
+      {
+        "type": "note",
+        "text": "The product of the HCF and the LCM of two numbers equals the product of the numbers themselves: HCF × LCM = a × b.",
+        "interrupt_type": null
+      },
+      {
+        "type": "example",
+        "text": "Simplify the fraction 12⁄18 using the HCF.",
+        "interrupt_type": null
+      },
+      {
+        "type": "step_flow",
+        "text": "1. Find HCF(12, 18) = 6 (as shown). 2. Divide numerator and denominator by 6. Numerator: 12 ÷ 6 = 2 Denominator: 18 ÷ 6 = 3 3. The simplified fraction is 2⁄3.",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "In summary, the HCF is the greatest number that fits evenly into both numbers. You can find it by listing factors, using prime factorisation, or applying the Euclidean algorithm—each method arrives at the same answer.",
+        "interrupt_type": null
+      },
+      {
+        "type": "note",
+        "text": "End of lesson. Ask a question any time.",
+        "interrupt_type": null
+      }
+    ],
+    "follow_up_questions": [
+      "Find the HCF of 24 and 36 using the prime‑factorisation method.",
+      "Use the Euclidean algorithm to determine the HCF of 45 and 60.",
+      "Simplify the fraction 45⁄60 by first finding its HCF."
+    ],
+    "quiz_score": null,
+    "quiz_total": null,
+    "quiz_results": [],
+    "quiz_at": null
+  },
+  "f296f575-bf6e-4850-89a4-d076923bad42": {
+    "session_id": "f296f575-bf6e-4850-89a4-d076923bad42",
+    "course_id": "c8400cb5-2f1a-4509-87b3-40b51513c0a8",
+    "topic": "Explain HCF",
+    "language": "English",
+    "created_at": "2026-09-21T12:33:29.285432Z",
+    "updated_at": "2026-09-21T12:33:29.285432Z",
+    "blocks": [
+      {
+        "type": "heading",
+        "text": "Definition, Methods, and Uses of HCF",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "When we talk about numbers, a *factor* (or divisor) of a number is any integer that can be multiplied by another integer to give the original number without leaving a remainder.",
+        "interrupt_type": null
+      },
+      {
+        "type": "note",
+        "text": "For example, the factors of 12 are 1, 2, 3, 4, 6, and 12 because each of these divides 12 exactly.",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "The Highest Common Factor (HCF) of two (or more) integers is the greatest integer that divides each of them without leaving a remainder.",
+        "interrupt_type": null
+      },
+      {
+        "type": "equation",
+        "text": "If \\(a\\) and \\(b\\) are two positive integers, then \\[\\text{HCF}(a,b)=\\max\\{d \\mid d|a \\text{ and } d|b\\}.\\]",
+        "interrupt_type": null
+      },
+      {
+        "type": "example",
+        "text": "Find the HCF of 12 and 18 by listing their factors. Factors of 12: 1, 2, 3, 4, 6, 12 Factors of 18: 1, 2, 3, 6, 9, 18 The common factors are 1, 2, 3, and 6. The largest of these is 6, so HCF(12,18)=6.",
+        "interrupt_type": null
+      },
+      {
+        "type": "step_flow",
+        "text": "Steps for the listing‑method: 1. List all factors of the first number. 2. List all factors of the second number. 3. Identify the common factors. 4. Choose the greatest common factor.",
+        "interrupt_type": null
+      },
+      {
+        "type": "example",
+        "text": "Find the HCF of 12 and 18 using prime factorization. Prime factorization of 12: \\(12 = 2^2 \\times 3\\) Prime factorization of 18: \\(18 = 2 \\times 3^2\\) Take the lowest power of each common prime: \\(2^1\\) and \\(3^1\\).",
+        "interrupt_type": null
+      },
+      {
+        "type": "example",
+        "text": "Multiply them: \\(2 \\times 3 = 6\\). Hence, HCF(12,18)=6.",
+        "interrupt_type": null
+      },
+      {
+        "type": "step_flow",
+        "text": "Steps for the prime‑factor method: 1. Write each number as a product of prime factors. 2. Identify the primes that appear in both factorizations. 3. For each common prime, keep the smallest exponent. 4. Multiply those selected primes together to obtain the HCF.",
+        "interrupt_type": null
+      },
+      {
+        "type": "checkin",
+        "text": "Based on the methods we just covered, what is the HCF of 12 and 18?",
+        "interrupt_type": "checkin"
+      },
+      {
+        "type": "student_question",
+        "text": "Mujhe yeh concept samjhao",
+        "interrupt_type": null
+      },
+      {
+        "type": "tutor_answer",
+        "text": "Aapka jawab bilkul sahi hai – 12 aur 18 ka HCF 6 hai. Ab prime‑factor method se dekhte hain: 12 = 2² × 3, 18 = 2 × 3²; dono mein common primes 2 aur 3 hain, unke chhote exponents (2¹ aur 3¹) le kar multiply karne se 2 × 3 = 6 milta hai.",
+        "interrupt_type": "checkin"
+      },
+      {
+        "type": "continuation",
+        "text": "Continuing the lesson…",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "Why do we care about the HCF? One common use is simplifying fractions. Dividing the numerator and denominator by their HCF reduces the fraction to its lowest terms.",
+        "interrupt_type": null
+      },
+      {
+        "type": "example",
+        "text": "Simplify \\(\\frac{12}{18}\\). HCF(12,18)=6. Divide numerator and denominator by 6: \\(\\frac{12 \\div 6}{18 \\div 6}=\\frac{2}{3}\\). Thus, \\(\\frac{12}{18}\\) simplifies to \\(\\frac{2}{3}\\).",
+        "interrupt_type": null
+      },
+      {
+        "type": "note",
+        "text": "The term Greatest Common Divisor (GCD) is synonymous with HCF. You may see either term in textbooks.",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "For larger numbers, listing all factors becomes impractical. A faster technique is the Euclidean algorithm, which repeatedly subtracts or takes remainders until the remainder is zero. The last non‑zero remainder is the HCF.",
+        "interrupt_type": null
+      },
+      {
+        "type": "example",
+        "text": "Apply the Euclidean algorithm to find HCF(48,18): 1. 48 ÷ 18 = 2 remainder 12 → replace (48,18) with (18,12). 2. 18 ÷ 12 = 1 remainder 6 → replace (18,12) with (12,6). 3. 12 ÷ 6 = 2 remainder 0 → stop. The last non‑zero remainder is 6.",
+        "interrupt_type": null
+      },
+      {
+        "type": "example",
+        "text": "Hence, HCF(48,18)=6.",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "In summary, the HCF is the largest number that divides two integers exactly. You can find it by listing factors, using prime factorization, or applying the Euclidean algorithm.",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "Knowing the HCF helps in simplifying fractions, solving ratio problems, and many other arithmetic tasks.",
+        "interrupt_type": null
+      },
+      {
+        "type": "note",
+        "text": "End of lesson. Ask a question any time.",
+        "interrupt_type": null
+      }
+    ],
+    "follow_up_questions": [
+      "Find the HCF of 24 and 36 using the prime factorization method.",
+      "Explain why dividing both numerator and denominator of a fraction by their HCF yields the fraction in lowest terms.",
+      "Using the Euclidean algorithm, determine the HCF of 101 and 23."
+    ],
+    "quiz_score": null,
+    "quiz_total": null,
+    "quiz_results": [],
+    "quiz_at": null
+  },
+  "a38bc479-aff6-4619-b8ca-cc714804f360": {
+    "session_id": "a38bc479-aff6-4619-b8ca-cc714804f360",
+    "course_id": "c8400cb5-2f1a-4509-87b3-40b51513c0a8",
+    "topic": "Explain HCF",
+    "language": "English",
+    "created_at": "2026-09-21T12:35:05.097103Z",
+    "updated_at": "2026-09-21T12:35:05.097103Z",
+    "blocks": [
+      {
+        "type": "heading",
+        "text": "What is HCF and How to Find It",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "A factor (or divisor) of a number is any integer that divides the number exactly, leaving no remainder. When two numbers share one or more factors, those are called common factors.",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "The Highest Common Factor (HCF), also known as the Greatest Common Divisor (GCD), is the largest integer that is a common factor of the given numbers.",
+        "interrupt_type": null
+      },
+      {
+        "type": "note",
+        "text": "Why does HCF matter? It lets us simplify fractions, reduce ratios, and solve problems that require equal sharing without leftovers.",
+        "interrupt_type": null
+      },
+      {
+        "type": "example",
+        "text": "Find the HCF of 12 and 18 by listing factors.",
+        "interrupt_type": null
+      },
+      {
+        "type": "step_flow",
+        "text": "1. List all factors of each number. Factors of 12: 1, 2, 3, 4, 6, 12 Factors of 18: 1, 2, 3, 6, 9, 18 2. Identify the common factors: 1, 2, 3, 6. 3. Choose the largest one: 6. Thus, HCF(12, 18) = 6.",
+        "interrupt_type": null
+      },
+      {
+        "type": "equation",
+        "text": "\\text{HCF}(12, 18) = 6",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "Notice that 6 divides both 12 and 18 exactly (12 ÷ 6 = 2, 18 ÷ 6 = 3). No larger number can do this, which is why it is the *highest* common factor.",
+        "interrupt_type": null
+      },
+      {
+        "type": "example",
+        "text": "Prime‑factor method for the same pair:",
+        "interrupt_type": null
+      },
+      {
+        "type": "step_flow",
+        "text": "1. Write each number as a product of prime factors. 12 = 2 × 2 × 3 18 = 2 × 3 × 3 2. Identify the primes appearing in both factorizations, taking the lowest exponent for each shared prime. Shared primes: 2 (once), 3 (once) 3. Multiply those shared primes: 2 × 3 = 6. Hence, HCF(12, 18) = 6.",
+        "interrupt_type": null
+      },
+      {
+        "type": "checkin",
+        "text": "Based on the factor‑listing method, what are the common factors of 12 and 18? (Give all of them.)",
+        "interrupt_type": "checkin"
+      },
+      {
+        "type": "student_question",
+        "text": "Mujhe yeh concept samjhao",
+        "interrupt_type": null
+      },
+      {
+        "type": "tutor_answer",
+        "text": "Finding Common Factors and HCF of 12 and 18 Review of Check‑in and Next Steps Aapka sawal bohat acha tha—12 aur 18 ke common factors 1, 2, 3, aur 6 hain, aur inka sab se bara common factor (HCF) 6 hai. Ab hum is HCF ko confirm karte hue aage LCM ki taraf barhte hain, jo aapko do numbers ko sab se chhoti common multiple tak le jayega.",
+        "interrupt_type": "checkin"
+      },
+      {
+        "type": "continuation",
+        "text": "Continuing the lesson…",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "Another fast technique, especially for large numbers, is the Euclidean algorithm. It repeatedly replaces the larger number by the remainder when the larger is divided by the smaller, until the remainder is zero.",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "The last non‑zero remainder is the HCF.",
+        "interrupt_type": null
+      },
+      {
+        "type": "step_flow",
+        "text": "Find HCF(48, 18) using the Euclidean algorithm: 1. 48 ÷ 18 = 2 remainder 12 → replace 48 with 12. 2. 18 ÷ 12 = 1 remainder 6 → replace 18 with 6. 3. 12 ÷ 6 = 2 remainder 0 → stop. The last non‑zero remainder is 6, so HCF(48, 18) = 6.",
+        "interrupt_type": null
+      },
+      {
+        "type": "example",
+        "text": "Applying the Euclidean algorithm to 48 and 18 gives the same HCF of 6, confirming the result from the other methods.",
+        "interrupt_type": null
+      },
+      {
+        "type": "note",
+        "text": "Real‑world use: If you have 48 red beads and 18 blue beads and want to make identical necklaces using all beads, the HCF tells you the maximum number of necklaces you can make without leftovers—6 necklaces in this case.",
+        "interrupt_type": null
+      },
+      {
+        "type": "note",
+        "text": "End of lesson. Ask a question any time.",
+        "interrupt_type": null
+      }
+    ],
+    "follow_up_questions": [
+      "Find the HCF of 24 and 36 using the prime‑factor method.",
+      "Explain why the Euclidean algorithm always ends with the HCF as the last non‑zero remainder.",
+      "If a fraction 45/60 is simplified, what role does the HCF play, and what is the simplified fraction?"
+    ],
+    "quiz_score": null,
+    "quiz_total": null,
+    "quiz_results": [],
+    "quiz_at": null
+  },
+  "a86d2ec5-d275-42b9-adb5-c2cb8bf89561": {
+    "session_id": "a86d2ec5-d275-42b9-adb5-c2cb8bf89561",
+    "course_id": "c8400cb5-2f1a-4509-87b3-40b51513c0a8",
+    "topic": "Explain HCF",
+    "language": "English",
+    "created_at": "2026-09-21T12:39:12.058435Z",
+    "updated_at": "2026-09-21T12:39:12.058435Z",
+    "blocks": [
+      {
+        "type": "heading",
+        "text": "What is HCF?",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "Today we'll explore the Highest Common Factor, often abbreviated as HCF. It tells us the biggest whole number that can divide two (or more) numbers without leaving any remainder.",
+        "interrupt_type": null
+      },
+      {
+        "type": "note",
+        "text": "Definition: The Highest Common Factor of two integers is the largest integer that divides both numbers exactly.",
+        "interrupt_type": null
+      },
+      {
+        "type": "example",
+        "text": "For the numbers 12 and 18, the HCF is 6 because 6 divides both 12 and 18 perfectly, and no larger number does.",
+        "interrupt_type": null
+      },
+      {
+        "type": "step_flow",
+        "text": "Method 1 – Listing all factors: 1. List all positive factors of each number. 2. Identify the common factors. 3. Choose the greatest of those common factors.",
+        "interrupt_type": null
+      },
+      {
+        "type": "example",
+        "text": "Factors of 12: 1, 2, 3, 4, 6, 12 Factors of 18: 1, 2, 3, 6, 9, 18 Common factors: 1, 2, 3, 6 → the largest is 6, so HCF = 6.",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "General background: Knowing the HCF is useful for simplifying fractions, reducing ratios, and solving problems that involve grouping objects into equal sets.",
+        "interrupt_type": null
+      },
+      {
+        "type": "step_flow",
+        "text": "Method 2 – Prime factorization: 1. Write each number as a product of prime factors. 2. Identify the primes that appear in both factorizations. 3. Multiply those common primes together; the product is the HCF.",
+        "interrupt_type": null
+      },
+      {
+        "type": "example",
+        "text": "Prime factorization of 12 = 2 × 2 × 3 Prime factorization of 18 = 2 × 3 × 3 Common primes: one 2 and one 3 → HCF = 2 × 3 = 6.",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "General background: For larger numbers, repeatedly listing factors becomes cumbersome. The Euclidean algorithm provides a fast, systematic way to find the HCF.",
+        "interrupt_type": null
+      },
+      {
+        "type": "step_flow",
+        "text": "Method 3 – Euclidean algorithm (for two numbers a and b, where a > b): 1. Divide a by b and keep the remainder r. 2. Replace a with b and b with r. 3. Repeat until the remainder is 0. 4. The last non‑zero remainder is the HCF.",
+        "interrupt_type": null
+      },
+      {
+        "type": "example",
+        "text": "Find HCF of 48 and 18 using the Euclidean algorithm: 48 ÷ 18 = 2 remainder 12 18 ÷ 12 = 1 remainder 6 12 ÷ 6 = 2 remainder 0 The last non‑zero remainder is 6, so HCF(48,18)=6.",
+        "interrupt_type": null
+      },
+      {
+        "type": "checkin",
+        "text": "Using any method you prefer, what is the HCF of 20 and 30? Please give your answer now.",
+        "interrupt_type": "checkin"
+      },
+      {
+        "type": "student_question",
+        "text": "Mujhe yeh concept samjhao",
+        "interrupt_type": null
+      },
+      {
+        "type": "tutor_answer",
+        "text": "Acha, aapka sawal samajh aaya – 20 aur 30 ka HCF 10 hota hai, kyun ke 20 = 2 × 10, 30 = 3 × 10 aur 10 se bade koi common divisor nahi milta. Is tarah, jaise hum ne Euclidean algorithm se dekha ke 48 ÷ 18 = 2 remainder 12, 18 ÷ 12 = 1 remainder 6, aur 12 ÷ 6 = 2 remainder 0, to HCF(48, 18) =\n6. Ab aap isi method ko kisi bhi do numbers par apply kar sakte hain.",
+        "interrupt_type": "checkin"
+      },
+      {
+        "type": "continuation",
+        "text": "Continuing the lesson…",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "Great! Remember, the HCF is the biggest number that fits perfectly into each of the given numbers. Whether you list factors, use prime factorization, or apply the Euclidean algorithm, the result will be the same.",
+        "interrupt_type": null
+      },
+      {
+        "type": "note",
+        "text": "End of lesson. Ask a question any time.",
+        "interrupt_type": null
+      }
+    ],
+    "follow_up_questions": [
+      "Why is the HCF important when simplifying the fraction 45/60?",
+      "How does the Euclidean algorithm guarantee that you reach the highest common factor?",
+      "Can the HCF of two numbers ever be larger than either of the original numbers? Explain.",
+      "If the HCF of two numbers is 1, what special term do we use to describe that pair?"
+    ],
+    "quiz_score": null,
+    "quiz_total": null,
+    "quiz_results": [],
+    "quiz_at": null
+  },
+  "48640b2b-8e8d-4c74-a7dd-b1fe34a50199": {
+    "session_id": "48640b2b-8e8d-4c74-a7dd-b1fe34a50199",
+    "course_id": "95f59665-73cb-4e33-bab4-b91855f3f4d6",
+    "topic": "Introduction to fractions",
+    "language": "English",
+    "created_at": "2026-09-21T12:40:15.961613Z",
+    "updated_at": "2026-09-21T12:40:15.961613Z",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "A fraction represents a part of a whole. It is written as two numbers separated by a slash: \\(\\frac{a}{b}\\). The top number \\(a\\) is called the numerator and tells how many parts we have.",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "The bottom number \\(b\\) is the denominator and tells into how many equal parts the whole is divided.",
+        "interrupt_type": null
+      },
+      {
+        "type": "note",
+        "text": "If the numerator is smaller than the denominator, the fraction is proper (e.g., \\(\\frac{3}{5}\\)). If the numerator is equal to or larger than the denominator, it is improper (e.g., \\(\\frac{7}{4}\\)).",
+        "interrupt_type": null
+      },
+      {
+        "type": "note",
+        "text": "Improper fractions can be rewritten as mixed numbers.",
+        "interrupt_type": null
+      },
+      {
+        "type": "example",
+        "text": "Imagine a pizza cut into 4 equal slices. If you eat 3 slices, you have eaten \\(\\frac{3}{4}\\) of the pizza. Here, 3 is the numerator (slices eaten) and 4 is the denominator (total slices).",
+        "interrupt_type": null
+      },
+      {
+        "type": "equation",
+        "text": "A fraction can also be read as a division: \\(\\frac{a}{b}=a\\div b\\). So \\(\\frac{3}{4}=3\\div4=0.75\\).",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "On a number line, fractions sit between whole numbers. For example, \\(\\frac{1}{2}\\) is exactly halfway between 0 and 1.",
+        "interrupt_type": null
+      },
+      {
+        "type": "diagram",
+        "text": "Diagram: A horizontal number line marked at 0, \\(\\frac{1}{2}\\), 1, \\(\\frac{3}{2}\\), and 2, showing the positions of these fractions.",
+        "interrupt_type": null
+      },
+      {
+        "type": "checkin",
+        "text": "Quick check: In the fraction \\(\\frac{5}{8}\\), which number is the numerator and which is the denominator?",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "Two fractions are equivalent when they represent the same amount, even though the numerators and denominators look different.",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "This happens because you can multiply or divide both the numerator and denominator by the same non‑zero number without changing the value.",
+        "interrupt_type": null
+      },
+      {
+        "type": "example",
+        "text": "\\(\\frac{1}{2}=\\frac{2}{4}=\\frac{3}{6}\\). Each time we multiply numerator and denominator by the same factor (2, then 3), the size of the piece stays the same.",
+        "interrupt_type": null
+      },
+      {
+        "type": "step_flow",
+        "text": "How to simplify a fraction: 1. Find the greatest common divisor (GCD) of numerator and denominator. 2. Divide both numerator and denominator by the GCD. 3. Write the resulting numbers as the new numerator and denominator.",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "Adding fractions with the same denominator is straightforward: keep the denominator and add the numerators.",
+        "interrupt_type": null
+      },
+      {
+        "type": "example",
+        "text": "\\(\\frac{1}{4}+\\frac{2}{4}=\\frac{1+2}{4}=\\frac{3}{4}\\). The denominator stays 4; only the numerators combine.",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "When denominators differ, first find a common denominator (often the least common multiple of the two denominators), convert each fraction, then add.",
+        "interrupt_type": null
+      },
+      {
+        "type": "example",
+        "text": "Add \\(\\frac{1}{3}+\\frac{1}{6}\\): The LCM of 3 and 6 is 6. Convert \\(\\frac{1}{3}=\\frac{2}{6}\\). Now add: \\(\\frac{2}{6}+\\frac{1}{6}=\\frac{3}{6}=\\frac{1}{2}\\).",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "Fractions appear everywhere: measuring ingredients in cooking, calculating distances on a map, or dividing a bill among friends. Understanding how to manipulate them is a foundational skill for all later math.",
+        "interrupt_type": null
+      }
+    ],
+    "follow_up_questions": [
+      "Why does multiplying the numerator and denominator by the same number keep the fraction’s value unchanged?",
+      "What is the least common multiple (LCM) of 4 and 10, and how would it help you add \\(\\frac{3}{4}\\) and \\(\\frac{2}{10}\\)?",
+      "If you simplify \\(\\frac{24}{36}\\), what steps do you follow and what is the final simplified fraction?"
+    ],
+    "quiz_score": null,
+    "quiz_total": null,
+    "quiz_results": [],
+    "quiz_at": null
+  },
+  "49dc92a4-0194-42e9-a0df-665f6fd577e8": {
+    "session_id": "49dc92a4-0194-42e9-a0df-665f6fd577e8",
+    "course_id": "40321a8b-49a1-4d12-98e4-2b30468d2f94",
+    "topic": "teach me this story in detail",
+    "language": "English",
+    "created_at": "2026-09-21T12:43:42.312878Z",
+    "updated_at": "2026-09-21T12:43:42.312878Z",
+    "blocks": [
+      {
+        "type": "heading",
+        "text": "Introduction to Storytelling",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "Every story, whether a classic novel, a folk tale, or a modern film, is built from a handful of core elements: characters, setting, plot, conflict, and theme.",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "Understanding how these pieces fit together helps us appreciate the depth of any narrative and lets us discuss it with precision.",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "We'll start by briefly defining each element, then I'll ask you which specific story you'd like to dive into so we can examine it in detail.",
+        "interrupt_type": null
+      },
+      {
+        "type": "checkin",
+        "text": "Which story (title or brief description) would you like me to teach you in detail?",
+        "interrupt_type": "checkin"
+      },
+      {
+        "type": "student_question",
+        "text": "I understand — continue",
+        "interrupt_type": null
+      },
+      {
+        "type": "tutor_answer",
+        "text": "Great, I see you’re ready to move forward—let’s continue right where we left off. We'll now dive into the story you choose, exploring each element in depth.",
+        "interrupt_type": "checkin"
+      }
+    ],
+    "follow_up_questions": [
+      "What is your favorite type of story—myth, adventure, mystery, or something else?",
+      "Which element of a story (character, setting, plot, conflict, theme) do you find most intriguing to analyze?",
+      "Do you prefer exploring stories from a particular culture or time period?"
+    ],
+    "quiz_score": null,
+    "quiz_total": null,
+    "quiz_results": [],
+    "quiz_at": null
+  },
+  "ff1d3b3d-6886-4e75-b3f1-1a65859d8bf2": {
+    "session_id": "ff1d3b3d-6886-4e75-b3f1-1a65859d8bf2",
+    "course_id": "40321a8b-49a1-4d12-98e4-2b30468d2f94",
+    "topic": "help me write essay about myself",
+    "language": "English",
+    "created_at": "2026-09-21T12:45:43.890782Z",
+    "updated_at": "2026-09-21T12:45:43.890782Z",
+    "blocks": [
+      {
+        "type": "heading",
+        "text": "Planning and Brainstorming",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "Before you put any words on the page, ask yourself two key questions: (1) Who will read this essay and why does it matter to them? (2) What single idea or experience do you want the reader to remember about you?",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "Clarifying purpose and audience gives your essay direction.",
+        "interrupt_type": null
+      }
+    ],
+    "follow_up_questions": [
+      "What is the purpose of a thesis statement in a personal essay?",
+      "Name two transition words that can help connect your body paragraphs.",
+      "Why is it more effective to focus on one vivid episode rather than listing many achievements?"
+    ],
+    "quiz_score": null,
+    "quiz_total": null,
+    "quiz_results": [],
+    "quiz_at": null
+  },
+  "21e56eef-455f-46cf-8c3c-acabcf987b10": {
+    "session_id": "21e56eef-455f-46cf-8c3c-acabcf987b10",
+    "course_id": "40321a8b-49a1-4d12-98e4-2b30468d2f94",
+    "topic": "whats esophagus?",
+    "language": "English",
+    "created_at": "2026-09-23T06:05:35.130331Z",
+    "updated_at": "2026-09-23T06:05:35.130331Z",
+    "blocks": [
+      {
+        "type": "heading",
+        "text": "What Is the Esophagus?",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "The esophagus (pronounced /ɪˈsɒf.ə·ɡəs/) is a muscular tube that connects the throat (pharynx) to the stomach. It is part of the upper gastrointestinal (GI) tract and serves as the conduit for food and liquids after you swallow.",
+        "interrupt_type": null
+      },
+      {
+        "type": "note",
+        "text": "Length: About 25 cm (10 inches) in adults, slightly longer in men than women. Diameter: roughly 2 cm when relaxed.",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "Location-wise, the esophagus runs behind the trachea (windpipe) and the heart, passes through the diaphragm at the esophageal hiatus, and ends at the gastro‑esophageal junction where it meets the stomach.",
+        "interrupt_type": null
+      },
+      {
+        "type": "diagram",
+        "text": "Imagine a vertical cross‑section of the chest: at the top is the mouth → pharynx → esophagus (a narrow tube) → diaphragm → stomach. (A simple line drawing would show the tube curving down behind the trachea.)",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "The wall of the esophagus is built from four layers, each with a specific role:",
+        "interrupt_type": null
+      },
+      {
+        "type": "step_flow",
+        "text": "1. Mucosa – innermost lining; secretes mucus to lubricate food. ↓ 2. Submucosa – contains blood vessels, nerves, and glands that produce additional mucus. ↓ 3. Muscularis externa – two muscle bands: an inner circular layer and an outer longitudinal layer. These contract rhythmically to push food downward (peristalsis). ↓ 4. Adventitia – outer connective‑tissue layer that anchors the esophagus to surrounding structures.",
+        "interrupt_type": null
+      },
+      {
+        "type": "example",
+        "text": "Think of the esophagus like a garden hose with a built‑in pump. The hose (the tube) carries water (food), and the pump (muscular layers) creates waves that move the water forward.",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "Swallowing is a coordinated three‑phase process:",
+        "interrupt_type": null
+      },
+      {
+        "type": "step_flow",
+        "text": "• Oral phase – voluntary; tongue pushes the bolus (chewed food) to the back of the mouth. ↓ • Pharyngeal phase – involuntary; the soft palate lifts, the epiglottis closes over the airway, and the upper esophageal sphincter (UES) relaxes to let the bolus enter. ↓ • Esophageal phase – involuntary; peristaltic waves travel down the esophagus, and the lower esophageal sphincter (LES) relaxes to let food enter the stomach.",
+        "interrupt_type": null
+      },
+      {
+        "type": "checkin",
+        "text": "What is the name of the muscular ring that prevents stomach acid from flowing back into the esophagus?",
+        "interrupt_type": "checkin"
+      },
+      {
+        "type": "student_question",
+        "text": "Give me a simpler example",
+        "interrupt_type": null
+      },
+      {
+        "type": "tutor_answer",
+        "text": "Absolutely, let’s picture it this way: the lower esophageal sphincter (LES) works like a door at the bottom of a hallway—when the door is closed, nothing can go back up the hallway (your esophagus), and when it opens, food can move forward into the kitchen (your stomach). So, during the esophageal phase, coordinated peristaltic waves push the bolus down the tube, and the LES relaxes at just the right moment to let the food enter the stomach.",
+        "interrupt_type": "checkin"
+      },
+      {
+        "type": "continuation",
+        "text": "Continuing the lesson…",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "That ring is the lower esophageal sphincter (LES). It stays closed most of the time, opening briefly to allow food into the stomach and then sealing again to keep acidic gastric contents out.",
+        "interrupt_type": null
+      },
+      {
+        "type": "note",
+        "text": "Common disorders of the esophagus include: Gastroesophageal reflux disease (GERD) – chronic LES weakness. Esophagitis – inflammation, often from acid or infection. Achalasia – failure of the LES to relax, causing food to back up.",
+        "interrupt_type": null
+      },
+      {
+        "type": "note",
+        "text": "Strictures – narrowing from scar tissue. Barrett’s esophagus – precancerous change due to long‑term acid exposure.",
+        "interrupt_type": null
+      },
+      {
+        "type": "comparison",
+        "text": "Unlike the trachea, which has rigid C‑shaped cartilage rings to keep the airway open, the esophagus relies entirely on its muscular walls for shape and movement. This flexibility lets it expand when you swallow a large bite.",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "In summary, the esophagus is a flexible, muscle‑driven tube that safely transports food from the mouth to the stomach while protecting the airway and preventing backflow of stomach acid.",
+        "interrupt_type": null
+      },
+      {
+        "type": "note",
+        "text": "End of lesson. Ask a question any time.",
+        "interrupt_type": null
+      }
+    ],
+    "follow_up_questions": [
+      "Describe the four layers of the esophageal wall and the primary function of each.",
+      "Explain why the lower esophageal sphincter must stay closed most of the time.",
+      "What might happen if the upper esophageal sphincter fails to relax during swallowing?"
+    ],
+    "quiz_score": null,
+    "quiz_total": null,
+    "quiz_results": [],
+    "quiz_at": null
+  },
+  "cd92dced-5d88-49f7-a00d-6563fcff584d": {
+    "session_id": "cd92dced-5d88-49f7-a00d-6563fcff584d",
+    "course_id": "40321a8b-49a1-4d12-98e4-2b30468d2f94",
+    "topic": "whats esophagus?",
+    "language": "English",
+    "created_at": "2026-09-23T06:08:16.503720Z",
+    "updated_at": "2026-09-23T06:08:16.503720Z",
+    "blocks": [
+      {
+        "type": "heading",
+        "text": "What is the Esophagus?",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "The esophagus is a muscular tube that connects the throat (pharynx) to the stomach. It serves as the conduit for everything we swallow—food, liquids, and even some medications.",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "Anatomically, the esophagus lies behind the trachea (windpipe) and in front of the spine.",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "It starts just below the larynx at the level of the sixth cervical vertebra and ends at the gastro‑esophageal junction, where it meets the stomach, roughly at the level of the tenth thoracic vertebra.",
+        "interrupt_type": null
+      },
+      {
+        "type": "diagram",
+        "text": "A simple side‑view diagram of the upper digestive tract: Mouth → Pharynx → Esophagus (highlighted) → Stomach → Small intestine. The diagram shows the esophagus as a roughly 25‑cm long tube running vertically through the chest cavity.",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "Its primary job is to transport swallowed material from the mouth to the stomach in a controlled, one‑way direction. The esophagus does not digest food; it simply moves it along.",
+        "interrupt_type": null
+      },
+      {
+        "type": "note",
+        "text": "The movement that pushes food down the esophagus is called peristalsis. Peristalsis is a coordinated, wave‑like contraction of the muscular wall that propels the bolus forward.",
+        "interrupt_type": null
+      },
+      {
+        "type": "step_flow",
+        "text": "Three phases of swallowing: 1. Oral phase – voluntary; the tongue pushes the bolus to the back of the mouth. 2. Pharyngeal phase – involuntary; the soft palate lifts, the epiglottis closes over the airway, and the bolus enters the pharynx. 3. Esophageal phase – involuntary; peristaltic waves travel down the esophagus to the stomach.",
+        "interrupt_type": null
+      },
+      {
+        "type": "checkin",
+        "text": "Re-engagement Check-in Check-in It looks like this might be moving a bit fast—would you like me to walk through a simpler example together, or slow down the pace?",
+        "interrupt_type": "checkin"
+      },
+      {
+        "type": "note",
+        "text": "Welcome back — let's pick up where we left off.",
+        "interrupt_type": null
+      },
+      {
+        "type": "note",
+        "text": "End of lesson. Ask a question any time.",
+        "interrupt_type": null
+      }
+    ],
+    "follow_up_questions": [
+      "What are the three phases of swallowing, and which of them are under voluntary control?",
+      "Name the four layers of the esophageal wall in order from the innermost to the outermost.",
+      "Why is the lower esophageal sphincter important in preventing reflux?"
+    ],
+    "quiz_score": null,
+    "quiz_total": null,
+    "quiz_results": [],
+    "quiz_at": null
+  },
+  "41eb7841-7b92-48e9-ae28-53db0719b5cc": {
+    "session_id": "41eb7841-7b92-48e9-ae28-53db0719b5cc",
+    "course_id": "40321a8b-49a1-4d12-98e4-2b30468d2f94",
+    "topic": "What's in this CV?",
+    "language": "English",
+    "created_at": "2026-09-23T06:15:45.211591Z",
+    "updated_at": "2026-09-23T06:15:45.211591Z",
+    "blocks": [
+      {
+        "type": "heading",
+        "text": "Key Sections of a Curriculum Vitae",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "A Curriculum Vitae, or CV, is a comprehensive record of your academic and professional life. Unlike a brief résumé, a CV can run several pages and is especially common in academia, research, and certain international job markets.",
+        "interrupt_type": null
+      },
+      {
+        "type": "note",
+        "text": "CV = Curriculum Vitae (Latin for “course of life”). It emphasizes scholarly achievements, publications, and detailed work history.",
+        "interrupt_type": null
+      },
+      {
+        "type": "checkin",
+        "text": "Re-engagement Check-in Check-in Would you like me to walk through a simpler example or slow down a bit to make this clearer?",
+        "interrupt_type": "checkin"
+      }
+    ],
+    "follow_up_questions": [
+      "Which CV section would you expand most for an academic faculty application, and why?",
+      "How would you quantify the impact of a research project in the work‑experience bullet points?",
+      "When listing publications, why is it important to use a consistent citation style?"
+    ],
+    "quiz_score": null,
+    "quiz_total": null,
+    "quiz_results": [],
+    "quiz_at": null
+  },
+  "cb8dd83f-38f2-48b2-9bc8-921a25d79c72": {
+    "session_id": "cb8dd83f-38f2-48b2-9bc8-921a25d79c72",
+    "course_id": "40321a8b-49a1-4d12-98e4-2b30468d2f94",
+    "topic": "mujhe hcf samjhao",
+    "language": "Roman Urdu",
+    "created_at": "2026-09-23T06:22:43.279342Z",
+    "updated_at": "2026-09-23T06:22:43.279342Z",
+    "blocks": [
+      {
+        "type": "heading",
+        "text": "What is HCF and Why it Matters",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "HCF ka matlab hai Highest Common Factor, yaani do ya zyada numbers ka sab se bara factor jo dono mein common ho. Isay GCD (Greatest Common Divisor) bhi kehte hain.",
+        "interrupt_type": null
+      },
+      {
+        "type": "note",
+        "text": "Synonyms: HCF, GCD, sab se bara mushtarka divisor.",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "HCF ka istemal fractions ko simplify karne, ratios ko reduce karne, aur diophantine equations (jaise ax + by = c) solve karne mein hota hai.",
+        "interrupt_type": null
+      },
+      {
+        "type": "example",
+        "text": "Example: 12 aur 18 ka HCF nikalte hain.",
+        "interrupt_type": null
+      },
+      {
+        "type": "equation",
+        "text": "Factors of 12: 1, 2, 3, 4, 6, 12 Factors of 18: 1, 2, 3, 6, 9, 18",
+        "interrupt_type": null
+      }
+    ],
+    "follow_up_questions": [
+      "HCF ka definition apne alfaaz mein likhiye.",
+      "Prime factorization method se 56 aur 98 ka HCF nikal kar batayein.",
+      "Euclidean algorithm ko listing method ke muqablay mein ek faida explain kijiye."
+    ],
+    "quiz_score": null,
+    "quiz_total": null,
+    "quiz_results": [],
+    "quiz_at": null
+  },
+  "7e8d0bd8-5c24-4d36-b323-e6afe890cfb7": {
+    "session_id": "7e8d0bd8-5c24-4d36-b323-e6afe890cfb7",
+    "course_id": "40321a8b-49a1-4d12-98e4-2b30468d2f94",
+    "topic": "what is the THE FEUDAL SYSTEM?",
+    "language": "English",
+    "created_at": "2026-09-23T06:40:21.141981Z",
+    "updated_at": "2026-09-23T06:40:21.141981Z",
+    "blocks": [
+      {
+        "type": "heading",
+        "text": "What Feudalism Was and Why It Appeared",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "In the Early Middle Ages (roughly 5th–10th centuries) the Roman Empire had collapsed, leaving Europe without a strong central ruler.",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "Power broke into many small, loosely organized territories called fiefdoms, each ruled by a local lord or petty king.",
+        "interrupt_type": null
+      },
+      {
+        "type": "note",
+        "text": "Feudalism – a social, economic, and political system built on a hierarchy of personal loyalties and land‑based obligations.",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "Because borders were constantly contested, war was a perpetual threat. To avoid endless fighting, people abandoned crowded Roman towns and moved to the countryside, where they could rely on a local lord for protection.",
+        "interrupt_type": null
+      }
+    ],
+    "follow_up_questions": [
+      "How did the collapse of central Roman authority lead to the creation of fiefdoms?",
+      "What were the mutual obligations between a lord and his vassal under feudalism?",
+      "Explain the difference between a serf and a landless peasant (villein) in the feudal hierarchy."
+    ],
+    "quiz_score": null,
+    "quiz_total": null,
+    "quiz_results": [],
+    "quiz_at": null
+  },
+  "e26051ae-6a2f-49ba-86db-1c5d7265feeb": {
+    "session_id": "e26051ae-6a2f-49ba-86db-1c5d7265feeb",
+    "course_id": "40321a8b-49a1-4d12-98e4-2b30468d2f94",
+    "topic": "explain esophagus",
+    "language": "English",
+    "created_at": "2026-09-23T06:59:52.685862Z",
+    "updated_at": "2026-09-23T06:59:52.685862Z",
+    "blocks": [
+      {
+        "type": "heading",
+        "text": "Understanding the Esophagus",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "Welcome! Today we'll explore the esophagus, the muscular tube that connects your mouth to your stomach. Think of it as a flexible highway that moves food and liquid down to where digestion really begins.",
+        "interrupt_type": null
+      },
+      {
+        "type": "note",
+        "text": "Definition: The esophagus (pronounced /iˈsɒfəɡəs/) is a 25‑30 cm long tube in the thoracic cavity that transports swallowed material from the pharynx to the stomach.",
+        "interrupt_type": null
+      },
+      {
+        "type": "checkin",
+        "text": "Quick Re‑Engagement Check‑In One‑Minute Check‑In Would you like me to walk through a simpler example together, or slow down and try a different approach?",
+        "interrupt_type": "checkin"
+      },
+      {
+        "type": "student_question",
+        "text": "Give me a simpler example",
+        "interrupt_type": null
+      },
+      {
+        "type": "tutor_answer",
+        "text": "Understanding the Esophagus – A Simple Explanation A Simpler Way to Think About the Esophagus Sure thing! Think of the esophagus as a short, stretchy hallway—about the length of a ruler, roughly 25 to 30 centimeters—located in your chest. Its job is just like a hallway that guides you from the front door (your mouth) to the kitchen (your stomach). When you swallow, the food travels down this hallway, moving smoothly from the back of your throat to the stomach where digestion continues. Can you tell me, in your own words, what the esophagus does? Great! Now that we have a clear picture of the esophagus as a simple passageway, let's move on to how its muscles work together to push food along.",
+        "interrupt_type": "checkin"
+      }
+    ],
+    "follow_up_questions": [
+      "What are the three functional zones of muscle type in the esophagus, and how does each contribute to swallowing?",
+      "Explain how the lower esophageal sphincter prevents gastro‑esophageal reflux and what can happen when it fails.",
+      "Describe the path a swallowed bolus takes from the mouth to the stomach, naming the key anatomical landmarks it passes."
+    ],
+    "quiz_score": null,
+    "quiz_total": null,
+    "quiz_results": [],
+    "quiz_at": null
+  },
+  "b0334f41-57d9-4b51-bea3-a8f81861628f": {
+    "session_id": "b0334f41-57d9-4b51-bea3-a8f81861628f",
+    "course_id": "40321a8b-49a1-4d12-98e4-2b30468d2f94",
+    "topic": "explain lcf in one slide",
+    "language": "English",
+    "created_at": "2026-09-23T07:06:05.288270Z",
+    "updated_at": "2026-09-23T07:06:05.288270Z",
+    "blocks": [
+      {
+        "type": "heading",
+        "text": "One‑Slide Explanation of LCF",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "LCF stands for Least Common Factor. In elementary number theory it is the smallest positive integer that divides *all* numbers in a given set.",
+        "interrupt_type": null
+      },
+      {
+        "type": "note",
+        "text": "For any pair of positive integers the least common factor is always 1, because 1 divides every integer.",
+        "interrupt_type": null
+      },
+      {
+        "type": "student_question",
+        "text": "end the lecture",
+        "interrupt_type": null
+      }
+    ],
+    "follow_up_questions": [
+      "Explain how the LCF differs from the GCF and give an example where they are not the same.",
+      "In a set of three numbers, 8, 12, and 20, what is the LCF (excluding 1)? List the steps you used.",
+      "If a cryptographic protocol requires that two keys share no common factor greater than 1, what property does that enforce and why is it important?"
+    ],
+    "quiz_score": null,
+    "quiz_total": null,
+    "quiz_results": [],
+    "quiz_at": null
+  },
+  "41551d4e-2780-44bc-9a0d-5c14a4004535": {
+    "session_id": "41551d4e-2780-44bc-9a0d-5c14a4004535",
+    "course_id": "40321a8b-49a1-4d12-98e4-2b30468d2f94",
+    "topic": "urdu mei lcf samjhao",
+    "language": "Roman Urdu",
+    "created_at": "2026-09-23T07:09:08.492489Z",
+    "updated_at": "2026-09-23T07:09:08.492489Z",
+    "blocks": [
+      {
+        "type": "heading",
+        "text": "LCF ka muqadma",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "LCF ka matlab hai Literary Creative Framework. Yeh ek aisa structure hai jo aapko ek kahani ko plan karne, likhne aur usay behtar banane mein madad karta hai.",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "Is framework ko follow karke aap apni writing ko systematic tareeqe se organise kar sakte hain.",
+        "interrupt_type": null
+      },
+      {
+        "type": "note",
+        "text": "Sab se pehle, aap apne saathi ke saath Urdu mein baat cheet karte hain. Yeh is liye zaroori hai ke dono ek dusre ki zubaan ko samajh saken, taake ideas clearly exchange ho sakein.",
+        "interrupt_type": null
+      },
+      {
+        "type": "step_flow",
+        "text": "LCF ke ahem qadam yeh hain:",
+        "interrupt_type": null
+      },
+      {
+        "type": "example",
+        "text": "Misal ke taur par, agar aapka genre 'historical fiction' hai, to aap apni diary entry aise shuru kar sakte hain: \"12 June 1348 – Aaj main, Sultan Muhammad bin Tughlaq ka sipahi, apne gaon ki halat dekh kar hairan hoon...\"",
+        "interrupt_type": null
+      },
+      {
+        "type": "checkin",
+        "text": "Ab tak aapko LCF ke kitne qadam yaad hain? Do qadam ka naam batayein.",
+        "interrupt_type": "checkin"
+      }
+    ],
+    "follow_up_questions": [
+      "Aap apni kahani ke liye kaun sa genre aur setting choose karenge? Apni choice ko ek sentence mein bayan karein.",
+      "Diary entry likhte waqt realism barqarar rakhne ke liye aap kaun se teen details shamil karenge?",
+      "Tughlaq Dynasty ke kis event ko aap apni story mein include karna chahenge aur kyun?"
+    ],
+    "quiz_score": null,
+    "quiz_total": null,
+    "quiz_results": [],
+    "quiz_at": null
+  },
+  "2340ec13-737f-4a98-974f-e546af315e8a": {
+    "session_id": "2340ec13-737f-4a98-974f-e546af315e8a",
+    "course_id": "40321a8b-49a1-4d12-98e4-2b30468d2f94",
+    "topic": "explain pie chart using graphs/visuals",
+    "language": "English",
+    "created_at": "2026-09-23T07:15:14.545207Z",
+    "updated_at": "2026-09-23T07:15:14.545207Z",
+    "blocks": [
+      {
+        "type": "heading",
+        "text": "1. What a Pie Chart Is and Why It Helps",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "A pie chart is a circular graph divided into slices, where each slice represents a part of a whole. The angle of each slice is proportional to the quantity it stands for, so the whole circle always adds up to 100 %.",
+        "interrupt_type": null
+      },
+      {
+        "type": "diagram",
+        "text": "Imagine a circle (the “pie”). Draw a line from the centre to the edge to create a slice that covers 90° – that slice shows 25 % of the total because 90° ÷ 360° = 0.25.",
+        "interrupt_type": null
+      },
+      {
+        "type": "note",
+        "text": "Why use a pie chart? It gives an instant visual cue about relative sizes, making it easy to compare categories at a glance.",
+        "interrupt_type": null
+      },
+      {
+        "type": "heading",
+        "text": "2. Choosing Categories – Applying the Source Material",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "First, decide what groups you want to display. In the source, we are asked to “organise all the people in your chart into appropriate categories.” For historical figures, categories might be:",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "Country of birth (e.g., Poland, Italy, Germany) Field of work (e.g., Astronomy, Art, Architecture) Era (e.g., Renaissance, Early Modern)",
+        "interrupt_type": null
+      },
+      {
+        "type": "example",
+        "text": "Copernicus would belong to the “Poland” country group and the “Astronomy” field group. Michelangelo belongs to both “Italy” and “Art” – notice he fits into more than one category, just as the source says.",
+        "interrupt_type": null
+      },
+      {
+        "type": "checkin",
+        "text": "Which two categories would you place Michelangelo in? (Answer aloud before we continue.)",
+        "interrupt_type": "checkin"
+      }
+    ],
+    "follow_up_questions": [
+      "If you have 12 historical figures and 3 belong to the ‘Poland’ category, what angle will the Poland slice occupy?",
+      "Why might you choose Option B (splitting contributions) when a person fits multiple categories?",
+      "What information does a legend provide that the slices alone cannot?"
+    ],
+    "quiz_score": null,
+    "quiz_total": null,
+    "quiz_results": [],
+    "quiz_at": null
+  },
+  "1e401a30-45f8-46b8-bf6c-5e1e2c1dfbef": {
+    "session_id": "1e401a30-45f8-46b8-bf6c-5e1e2c1dfbef",
+    "course_id": "40321a8b-49a1-4d12-98e4-2b30468d2f94",
+    "topic": "explain what is meant by watercycle",
+    "language": "English",
+    "created_at": "2026-09-23T07:21:59.660177Z",
+    "updated_at": "2026-09-23T07:21:59.660177Z",
+    "blocks": [
+      {
+        "type": "heading",
+        "text": "Understanding the Water Cycle",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "Today we'll explore the water cycle, also called the hydrologic cycle. It describes how water moves continuously between the atmosphere, land, and oceans, reshaping the environment and supporting life.",
+        "interrupt_type": null
+      },
+      {
+        "type": "note",
+        "text": "Key definition: The water cycle is the set of processes that transfer water from the Earth's surface to the atmosphere and back again, without any net loss or gain of water over long periods.",
+        "interrupt_type": null
+      },
+      {
+        "type": "note",
+        "text": "Imagine a giant, never‑ending loop. A simple diagram would show the ocean, land, plants, clouds, and the sun, with arrows indicating the direction of each process.",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "1️⃣ Evaporation – Solar energy heats liquid water in oceans, lakes, and rivers, turning it into water vapor. This vapor rises because it is less dense than the surrounding air.",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "2️⃣ Transpiration – Plants absorb water through their roots and release it as vapor through tiny pores called stomata. Together, evaporation and transpiration are often called *evapotranspiration*.",
+        "interrupt_type": null
+      }
+    ],
+    "follow_up_questions": [
+      "How does condensation differ from evaporation in terms of energy exchange?",
+      "Why is infiltration important for maintaining groundwater supplies?",
+      "What are two ways human activity can disrupt the natural water cycle?"
+    ],
+    "quiz_score": null,
+    "quiz_total": null,
+    "quiz_results": [],
+    "quiz_at": null
+  },
+  "db0d7cbb-a487-4d85-a220-774f885209df": {
+    "session_id": "db0d7cbb-a487-4d85-a220-774f885209df",
+    "course_id": "40321a8b-49a1-4d12-98e4-2b30468d2f94",
+    "topic": "what is THE FEUDAL SYSTEM?",
+    "language": "English",
+    "created_at": "2026-09-23T08:19:28.059845Z",
+    "updated_at": "2026-09-23T08:19:28.059845Z",
+    "blocks": [
+      {
+        "type": "heading",
+        "text": "What Feudalism Was and Why It Emerged",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "After the fall of the Western Roman Empire, Europe entered the Early Middle Ages (roughly 500‑1000 AD). Central authority collapsed, and the continent broke into many small, loosely organized territories called fiefdoms.",
+        "interrupt_type": null
+      },
+      {
+        "type": "checkin",
+        "text": "Re-engagement Check-in Quick Check-in Would you like me to walk through a simpler example together now?",
+        "interrupt_type": "checkin"
+      },
+      {
+        "type": "student_question",
+        "text": "I understand — continue",
+        "interrupt_type": null
+      },
+      {
+        "type": "tutor_answer",
+        "text": "Early Middle Ages Overview Re‑engagement and Core Point Great, thanks for letting me know you’re ready to keep going! After the Western Roman Empire fell, the political landscape of Europe changed dramatically. The central authority that once unified the continent vanished, and instead of one big empire, the land splintered into many small, loosely organized territories known as fiefdoms. Think of it like a shattered puzzle: each piece (a fiefdom) is governed by its own local lord, who owes only limited loyalty to any higher ruler. This shift set the stage for the social and economic patterns of the Early Middle Ages. Can you name the term used for the small, loosely organized territories that emerged after the fall of the Western Roman Empire?",
+        "interrupt_type": "checkin"
+      }
+    ],
+    "follow_up_questions": [
+      "How did the relationship between a lord and a vassal differ from that between a king and his subjects?",
+      "What were the main obligations of a serf under the manorial system?",
+      "Why might a ruler choose to grant land rather than pay soldiers with money?"
+    ],
+    "quiz_score": null,
+    "quiz_total": null,
+    "quiz_results": [],
+    "quiz_at": null
+  },
+  "01901c55-07dd-497b-87ac-c6e48709bb7e": {
+    "session_id": "01901c55-07dd-497b-87ac-c6e48709bb7e",
+    "course_id": "40321a8b-49a1-4d12-98e4-2b30468d2f94",
+    "topic": "what is THE FEUDAL SYSTEM?",
+    "language": "English",
+    "created_at": "2026-09-23T08:23:16.185365Z",
+    "updated_at": "2026-09-23T08:23:16.185365Z",
+    "blocks": [
+      {
+        "type": "heading",
+        "text": "Origins and Context",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "In the Early Middle Ages (roughly 500‑1500 AD), the collapse of Roman central authority left Europe without a single ruler.",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "The continent broke into many loosely organized territories called fiefdoms, each ruled by a local lord or petty king. Constant border disputes and raids—especially from Vikings—made warfare a daily reality.",
+        "interrupt_type": null
+      },
+      {
+        "type": "checkin",
+        "text": "Would you like me to go through a simpler example together, or slow the pace a bit?",
+        "interrupt_type": "checkin"
+      },
+      {
+        "type": "student_question",
+        "text": "I understand — continue",
+        "interrupt_type": null
+      },
+      {
+        "type": "tutor_answer",
+        "text": "Feudal Fragmentation and Everyday Warfare Feudal Fragmentation and Daily Conflict Great, I’ll keep going. Imagine early medieval Europe as a patchwork quilt after the fall of Rome: the continent split into many loosely organized territories called fiefdoms, each ruled by a local lord or petty king. Picture each fiefdom as a tiny kingdom with its own castle, court, and militia. Because these lords were neighbors with overlapping claims, borders were constantly disputed, and raids—especially the swift, sea‑borne attacks by Vikings—made warfare a daily reality. In other words, instead of one peaceful nation, you had dozens of mini‑states where fighting was as routine as planting crops. Let’s hold that image as we move on to the next point.",
+        "interrupt_type": "checkin"
+      }
+    ],
+    "follow_up_questions": [
+      "How did the lack of a central ruler after the fall of Rome lead to the creation of fiefdoms?",
+      "What were the main duties of a knight compared to those of a peasant in the feudal hierarchy?",
+      "Explain why the homestead ceremony of homage was essential for maintaining the feudal system."
+    ],
+    "quiz_score": null,
+    "quiz_total": null,
+    "quiz_results": [],
+    "quiz_at": null
+  },
+  "69efa52e-1a9d-431e-981f-a84fccc52b8f": {
+    "session_id": "69efa52e-1a9d-431e-981f-a84fccc52b8f",
+    "course_id": "40321a8b-49a1-4d12-98e4-2b30468d2f94",
+    "topic": "Explain LCF with examples",
+    "language": "English",
+    "created_at": "2026-09-23T08:28:09.320924Z",
+    "updated_at": "2026-09-23T08:28:09.320924Z",
+    "blocks": [
+      {
+        "type": "heading",
+        "text": "What is the Least Common Factor?",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "In elementary number theory, a *factor* (or divisor) of an integer n is any integer d such that n = d·k for some integer k. When we have two positive integers a and b, a *common factor* is a number that divides both a and b.",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "The Least Common Factor (LCF) of a and b is the smallest integer greater than 1 that divides both numbers. If a and b share no factor larger than 1, we say they are *coprime* and their LCF is defined to be 1.",
+        "interrupt_type": null
+      },
+      {
+        "type": "student_question",
+        "text": "stop here",
+        "interrupt_type": null
+      },
+      {
+        "type": "tutor_answer",
+        "text": "1. Okay, we will pause the lesson at this point.\n2. Let me know when you are ready to continue.",
+        "interrupt_type": null
+      },
+      {
+        "type": "continuation",
+        "text": "Continuing the lesson…",
+        "interrupt_type": null
+      },
+      {
+        "type": "note",
+        "text": "LCF is sometimes called the *smallest common divisor* (excluding the trivial divisor 1). It is closely related to the Greatest Common Divisor (GCD): the LCF is the smallest prime factor of the GCD.",
+        "interrupt_type": null
+      },
+      {
+        "type": "student_question",
+        "text": "end the lesson",
+        "interrupt_type": null
+      }
+    ],
+    "follow_up_questions": [
+      "Compute the LCF of 81 and 54 and explain each step.",
+      "If two numbers are coprime, what is their LCF and why?",
+      "Explain how the LCF relates to the prime factorisation of the GCD."
+    ],
+    "quiz_score": null,
+    "quiz_total": null,
+    "quiz_results": [],
+    "quiz_at": null
+  },
+  "677f3cf6-e3aa-4545-a05e-26a9b18624b8": {
+    "session_id": "677f3cf6-e3aa-4545-a05e-26a9b18624b8",
+    "course_id": "40321a8b-49a1-4d12-98e4-2b30468d2f94",
+    "topic": "what is THE FEUDAL SYSTEM?",
+    "language": "English",
+    "created_at": "2026-09-23T10:02:43.424833Z",
+    "updated_at": "2026-09-23T10:02:43.424833Z",
+    "blocks": [
+      {
+        "type": "heading",
+        "text": "1. Why Feudalism Appeared",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "After the fall of the Western Roman Empire, Europe lacked a strong central government. The continent broke into many small, loosely organized territories called fiefdoms, each ruled by a local lord or petty king.",
+        "interrupt_type": null
+      },
+      {
+        "type": "note",
+        "text": "A fief is a parcel of land granted by a lord to a vassal in exchange for service, usually military.",
+        "interrupt_type": null
+      },
+      {
+        "type": "checkin",
+        "text": "{ \"lesson_title\": \"\", \"sections\": [], \"follow_up_questions\": [], \"checkin_question\": \"Would you like me to show a simpler example and go through it more slowly?\" }",
+        "interrupt_type": "checkin"
+      },
+      {
+        "type": "student_question",
+        "text": "Give me a simpler example",
+        "interrupt_type": null
+      },
+      {
+        "type": "tutor_answer",
+        "text": "Sure thing! Think of a fief like a medieval “rent‑a‑castle” deal: a powerful lord hands a small stretch of land—a farm, a village, maybe a tiny fort—to a knight, and in return the knight promises to show up with his sword whenever the lord needs help defending the realm. It’s the same idea as a modern employer giving you a salary (the land) in exchange for your work (the military service). With that picture in mind, let’s move on to how these land grants helped shape the whole feudal hierarchy.",
+        "interrupt_type": "checkin"
+      }
+    ],
+    "follow_up_questions": [
+      "How did the feudal system help reduce constant warfare after the fall of the Roman Empire?",
+      "Explain the mutual obligations between a lord and his vassal.",
+      "What were the main stages of training for a medieval knight?",
+      "Why was the pope placed at the top of the feudal hierarchy, and what authority did he hold over the king?"
+    ],
+    "quiz_score": null,
+    "quiz_total": null,
+    "quiz_results": [],
+    "quiz_at": null
+  },
+  "8a607c5b-3a33-47c0-8920-1aa13ffb8858": {
+    "session_id": "8a607c5b-3a33-47c0-8920-1aa13ffb8858",
+    "course_id": "40321a8b-49a1-4d12-98e4-2b30468d2f94",
+    "topic": "teach me lcf",
+    "language": "English",
+    "created_at": "2026-09-23T10:33:47.084272Z",
+    "updated_at": "2026-09-23T10:33:47.084272Z",
+    "blocks": [
+      {
+        "type": "heading",
+        "text": "What is LCF Notation?",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "LCF stands for \"Lederberg‑Coxeter‑Frucht\" notation. It is a compact way to describe a special class of graphs: cubic (3‑regular) Hamiltonian graphs.",
+        "interrupt_type": null
+      }
+    ],
+    "follow_up_questions": [
+      "Write the LCF notation for a 6‑vertex cubic Hamiltonian graph where each vertex i is connected to i + 2 (mod 6).",
+      "Explain why the jump values in a valid LCF string must be chosen so that no vertex ends up with degree greater than three.",
+      "If an LCF string is [4, -4, 7]^3, how many vertices does the graph have, and what are the chord connections for vertex 0?"
+    ],
+    "quiz_score": null,
+    "quiz_total": null,
+    "quiz_results": [],
+    "quiz_at": null
+  },
+  "0ef4811f-c78d-4dbb-8718-3454b0dc9b92": {
+    "session_id": "0ef4811f-c78d-4dbb-8718-3454b0dc9b92",
+    "course_id": "40321a8b-49a1-4d12-98e4-2b30468d2f94",
+    "topic": "teach me lcf",
+    "language": "English",
+    "created_at": "2026-09-23T10:36:30.017450Z",
+    "updated_at": "2026-09-23T10:36:30.017450Z",
+    "blocks": [
+      {
+        "type": "heading",
+        "text": "What is a Linear Congruential Generator?",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "A Linear Congruential Generator (LCG) is a simple algorithm that produces a sequence of pseudo‑random numbers. It is defined by a recurrence relation that uses modular arithmetic to keep the numbers within a fixed range.",
+        "interrupt_type": null
+      },
+      {
+        "type": "equation",
+        "text": "X_{n+1} = (a \\cdot X_n + c) \\bmod m",
+        "interrupt_type": null
+      },
+      {
+        "type": "note",
+        "text": "a: multiplier (0 < a < m) c: increment (0 ≤ c < m) m: modulus (m > 0, usually a power of 2 or a prime) X₀: seed (initial value, 0 ≤ X₀ < m)",
+        "interrupt_type": null
+      },
+      {
+        "type": "student_question",
+        "text": "stop here",
+        "interrupt_type": null
+      },
+      {
+        "type": "tutor_answer",
+        "text": "1. We'll pause the lecture now.\n2. Let me know when you're ready to continue.",
+        "interrupt_type": null
+      },
+      {
+        "type": "continuation",
+        "text": "Continuing the lesson…",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "Each new value X_{n+1} is computed from the previous value X_n, then reduced modulo m so that the result always lies between 0 and m‑1. The sequence {X₁, X₂, …} looks random, even though it is completely deterministic.",
+        "interrupt_type": null
+      },
+      {
+        "type": "student_question",
+        "text": "end the lecture",
+        "interrupt_type": null
+      }
+    ],
+    "follow_up_questions": [
+      "Explain in your own words why the modulus m is essential in an LCG.",
+      "What three conditions must be satisfied for an LCG to achieve its maximum period?",
+      "If you wanted a generator with a period of 2^{64}, what would you choose for the modulus m?"
+    ],
+    "quiz_score": null,
+    "quiz_total": null,
+    "quiz_results": [],
+    "quiz_at": null
+  },
+  "2a17b5d8-1e88-4f24-8d05-8c05174b0137": {
+    "session_id": "2a17b5d8-1e88-4f24-8d05-8c05174b0137",
+    "course_id": "40321a8b-49a1-4d12-98e4-2b30468d2f94",
+    "topic": "Explain me highest common factor",
+    "language": "English",
+    "created_at": "2026-09-23T10:39:51.581342Z",
+    "updated_at": "2026-09-23T10:39:51.581342Z",
+    "blocks": [
+      {
+        "type": "heading",
+        "text": "Highest Common Factor (HCF)",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "The Highest Common Factor, often abbreviated as HCF, is the largest positive integer that divides two or more integers without leaving a remainder. It is also called the Greatest Common Divisor (GCD).",
+        "interrupt_type": null
+      },
+      {
+        "type": "checkin",
+        "text": "Would you like me to walk through a simpler example together at a slower pace?",
+        "interrupt_type": "checkin"
+      },
+      {
+        "type": "student_question",
+        "text": "Slow down",
+        "interrupt_type": null
+      },
+      {
+        "type": "tutor_answer",
+        "text": "Sure thing—let’s take it step by step. The Highest Common Factor (HCF), which many people also call the Greatest Common Divisor (GCD), is simply the biggest whole number that can divide two (or more) numbers without leaving any remainder. For example, look at the numbers 12 and\n18. List their factors: Factors of 12 are 1, 2, 3, 4, 6,\n12. Factors of 18 are 1, 2, 3, 6, 9,\n18. The numbers they share are 1, 2, 3, and 6, and the largest of those shared factors is\n6. So the HCF (or GCD) of 12 and 18 is\n6. Think of it like finding the biggest “building block” that fits perfectly into both numbers—no leftovers. If you’re comfortable with that, we can now move on to how we use the HCF to simplify fractions.",
+        "interrupt_type": "checkin"
+      }
+    ],
+    "follow_up_questions": [
+      "Find the HCF of 60 and 90 using prime factorization.",
+      "Use the Euclidean algorithm to determine the HCF of 101 and 23.",
+      "Explain how the HCF helps in reducing the fraction 150/210 to its lowest terms."
+    ],
+    "quiz_score": null,
+    "quiz_total": null,
+    "quiz_results": [],
+    "quiz_at": null
+  },
+  "83129370-1b87-4b89-8caf-4edc62d6c5c4": {
+    "session_id": "83129370-1b87-4b89-8caf-4edc62d6c5c4",
+    "course_id": "40321a8b-49a1-4d12-98e4-2b30468d2f94",
+    "topic": "mujhe urdu mei ek story batao",
+    "language": "Roman Urdu",
+    "created_at": "2026-09-23T10:40:37.199934Z",
+    "updated_at": "2026-09-23T10:40:37.199934Z",
+    "blocks": [
+      {
+        "type": "heading",
+        "text": "Story Development Guide",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "Aaj hum ek aisi kahani likhenge jo Tughlaq Sultanate ke daur mein Lahore ki zindagi ko diary ke format mein dikhaye. Yeh kahani aapke apne perspective se honi chahiye, lekin us waqt ke tareekhi haalaat ko bhi barabar samajhna zaroori hai.",
+        "interrupt_type": null
+      },
+      {
+        "type": "note",
+        "text": "Zaroori logon ki list: Ghiyasuddin Tughlaq (1320‑1325) Muhammad bin Tughlaq (1325‑1351) Firuz Shah Tughlaq (1351‑1388) Sultanate ke darbar ke wazir, sipahi, aur bazaar ke dukaandar Lahore ke local scholars aur teen log jo aapke umar ke",
+        "interrupt_type": null
+      }
+    ],
+    "follow_up_questions": [
+      "Aapki diary story ka main character kaun hai aur uski age kya hai?",
+      "Tughlaq Sultanate ke kis ruler ne Lahore ko capital banaya tha, aur uska kya impact tha?",
+      "Aap apni story mein ek cultural detail (jaise kapde, khana, ya bazaar ki awaaz) kaise include karenge?",
+      "Agar aapko story ka ek conflict add karna ho, to aap kaunsa historical event choose karenge?"
+    ],
+    "quiz_score": null,
+    "quiz_total": null,
+    "quiz_results": [],
+    "quiz_at": null
+  },
+  "6a18b926-3664-4317-8e5e-a81e00f401c6": {
+    "session_id": "6a18b926-3664-4317-8e5e-a81e00f401c6",
+    "course_id": "40321a8b-49a1-4d12-98e4-2b30468d2f94",
+    "topic": "where Highest common factor is applied and why it is important to learn in real life",
+    "language": "English",
+    "created_at": "2026-09-23T10:47:14.916585Z",
+    "updated_at": "2026-09-23T10:47:14.916585Z",
+    "blocks": [
+      {
+        "type": "heading",
+        "text": "What is the Highest Common Factor?",
+        "interrupt_type": null
+      },
+      {
+        "type": "text",
+        "text": "The Highest Common Factor (HCF), also called the Greatest Common Divisor (GCD), of two or more positive integers is the largest integer that divides each of them without leaving a remainder.",
+        "interrupt_type": null
+      },
+      {
+        "type": "example",
+        "text": "For the numbers 24 and 36, the common factors are 1, 2, 3, 4, 6, and 12. The greatest of these is 12, so HCF(24, 36) = 12.",
+        "interrupt_type": null
+      },
+      {
+        "type": "step_flow",
+        "text": "How to find the HCF using the Euclidean algorithm: 1. Divide the larger number by the smaller. 2. Keep the remainder. 3. Replace the larger number with the smaller, and the smaller with the remainder. 4. Repeat until the remainder is 0. 5. The last non‑zero remainder is the HCF.",
+        "interrupt_type": null
+      },
+      {
+        "type": "example",
+        "text": "Find HCF(84, 126) using the Euclidean algorithm.",
+        "interrupt_type": null
+      },
+      {
+        "type": "student_question",
+        "text": "where can aply hcf in real life",
+        "interrupt_type": null
+      },
+      {
+        "type": "tutor_answer",
+        "text": "1. Simplifying fractions for cooking measurements ensures accurate ingredient ratios.\n2. Determining the largest tile size that fits a floor without cutting reduces waste.\n3. Planning synchronized schedules, like bus routes, uses HCF to find common intervals.",
+        "interrupt_type": null
+      },
+      {
+        "type": "continuation",
+        "text": "Continuing the lesson…",
+        "interrupt_type": null
+      },
+      {
+        "type": "step_flow",
+        "text": "84 ÷ 126 → remainder 84 (swap)\\n126 ÷ 84 → remainder 42\\n84 ÷ 42 → remainder 0\\n=> HCF = 42",
+        "interrupt_type": null
+      }
+    ],
+    "follow_up_questions": [
+      "Explain how you would use the HCF to determine the smallest number of identical tiles needed to cover a rectangular floor of dimensions 84 cm by 126 cm without cutting any tile.",
+      "If two friends want to share 48 chocolate bars and 72 gummy bears equally, what is the greatest number of identical snack packs they can create, and how many of each treat will be in each pack?",
+      "Why does the HCF need to be 1 (i.e., the numbers are coprime) for the RSA encryption keys to be secure? Provide a brief explanation."
+    ],
+    "quiz_score": null,
+    "quiz_total": null,
+    "quiz_results": [],
+    "quiz_at": null
+  }
+}

@@ -37,6 +37,11 @@ class TeachingResponse(BaseModel):
     expects_student_response: bool
     session_status: SessionStatus
     next_action: str | None = None
+    interrupt_type: Literal["checkin", "no_face_pause"] | None = None
+    paused: bool | None = None
+    awaiting_checkin_reply: bool | None = None
+    cooldown: int | None = None
+
 
 
 class FollowupResponse(BaseModel):

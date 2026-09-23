@@ -12,13 +12,13 @@ router = APIRouter(prefix="/speech", tags=["speech"])
 
 
 @router.post("/transcribe", response_model=TranscriptionResponse)
-async def transcribe(file: UploadFile = File(...), container: Container = Depends(get_container)) -> TranscriptionResponse:
+async def transcribe(file: UploadFile = File(...), language: str | None = Form(None), container: Container = Depends(get_container)) -> TranscriptionResponse:
     suffix = Path(file.filename or "audio.webm").suffix or ".webm"
     try:
         with NamedTemporaryFile(suffix=suffix, delete=False) as temporary:
             path = Path(temporary.name)
             temporary.write(await file.read())
-        detected, text = await container.stt.transcribe(path)
+        detected, text = await container.stt.transcribe(path, language=language)
         return TranscriptionResponse(speech_detected=detected, text=text)
     except Exception as exc:
         raise HTTPException(502, str(exc)) from exc

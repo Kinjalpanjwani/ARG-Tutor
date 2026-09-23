@@ -32,3 +32,19 @@ def test_empty_store_returns_general_knowledge(tmp_path) -> None:
     result = Retriever(embeddings, VectorStore(tmp_path, 4)).retrieve("calculus")
     assert result.context == ""
     assert result.source_type == "general_knowledge"
+
+
+def test_comprehensive_attachment_request_includes_each_course_document(tmp_path) -> None:
+    embeddings = FakeEmbeddings()
+    store = VectorStore(tmp_path, dimension=4)
+    records = [
+        record("course", "first chapter material", 1),
+        record("course", "second chapter material", 2),
+        record("course", "third chapter material", 3),
+    ]
+    store.add(records, embeddings.embed_texts([item.page_content for item in records]))
+    retriever = Retriever(embeddings, store, top_k=6, threshold=-1)
+
+    result = retriever.retrieve("Teach all uploaded documents", course_id="course")
+
+    assert {item.document_id for item in result.records} == {"d1", "d2", "d3"}

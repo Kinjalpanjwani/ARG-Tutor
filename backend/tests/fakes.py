@@ -48,3 +48,10 @@ class FakeTutor:
 
     async def evaluate_feedback(self, **kwargs):
         return {"content": "Good attempt", "next_action": "continue_next_step", "unclear_concept": None, "whiteboard": []}
+
+    async def generate_checkin(self, **kwargs):
+        return "Are you following along okay, or would you like a simpler example?"
+
+    async def generate_checkin_followup(self, **kwargs):
+        return f"Thanks for telling me. Here is an easier way to think about it: {kwargs['last_chunk']}."
+

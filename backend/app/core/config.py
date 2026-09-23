@@ -17,6 +17,7 @@ class Settings(BaseSettings):
     cors_origins: str = "http://localhost:5173,http://127.0.0.1:5173"
     groq_api_key: str | None = Field(default=None, repr=False)
     groq_model: str = "openai/gpt-oss-120b"
+    light_groq_model: str = "llama-3.1-8b-instant"
     groq_whisper_model: str = "whisper-large-v3"
     embedding_model: str = "all-MiniLM-L6-v2"
     embedding_dimension: int = 384
@@ -25,6 +26,7 @@ class Settings(BaseSettings):
     retrieval_top_k: int = 6
     retrieval_threshold: float = 0.25
     max_upload_mb: int = 25
+    language_detection_enabled: bool = False
     tts_voice_english: str = "en-US-AriaNeural"
     tts_voice_urdu: str = "ur-PK-AsadNeural"
     data_dir: Path = BACKEND_DIR / "data"

@@ -102,7 +102,10 @@ async def test_table_fast_path_is_exact_and_skips_llm():
     service = NotebookLessonService(FailingLLM(), FakeGuard(), retriever)
     result = await service.start("course", "table of 2?", "English")
     assert result.response_type == "multiplication_table"
-    assert [block.text for block in result.chunks[1:11]] == [f"2 × {i} = {2*i}" for i in range(1, 11)]
+    assert [block.text for block in result.chunks if block.type == "table"] == [f"2 × {i} = {2*i}" for i in range(1, 11)]
+    checkin = [block for block in result.chunks if block.type == "checkin"]
+    assert len(checkin) == 1
+    assert checkin[0].text == "Now you tell me: what is 7 × 2?"
 
 
 def test_title_like_pages_support_headingless_book_sections():

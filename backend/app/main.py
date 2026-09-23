@@ -5,7 +5,7 @@ from fastapi import FastAPI, HTTPException, Request
 from fastapi.responses import FileResponse
 from fastapi.middleware.cors import CORSMiddleware
 
-from app.api import chat, courses, documents, health, lessons, quiz, sessions, speech, teaching
+from app.api import chat, courses, documents, flashcards, health, history, lessons, quiz, sessions, speech, teaching, vision
 from app.api.errors import register_error_handlers
 from app.container import build_container
 from app.core.config import get_settings
@@ -42,7 +42,8 @@ def create_app() -> FastAPI:
         return FileResponse(path)
     for router in (
         health.router, courses.router, documents.router, sessions.router,
-        teaching.router, lessons.router, chat.router, speech.router, quiz.router,
+        teaching.router, vision.router, lessons.router, chat.router, speech.router, quiz.router,
+        history.router, flashcards.router,
     ):
         app.include_router(router, prefix=settings.api_prefix)
     register_error_handlers(app)

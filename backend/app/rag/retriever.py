@@ -52,6 +52,8 @@ class Retriever:
             r"\bpage[ -]by[ -]page\b",
             r"\b(?:show|display|inspect|look at) (?:me )?(?:the )?(?:original|source) (?:page|pdf|document|image|diagram|figure)\b",
             r"\b(?:teach|explain|solve) (?:me )?(?:this|the) equations?\b",
+            r"\b(?:teach|explain|cover|go through)\b.*\b(?:all|everything|them)\b",
+            r"\b(?:these|uploaded)\s+(?:pdfs?|documents?|files?|chapters?|materials?|slides?)\b",
         )
         attachment_phrases = {"explain this", "what is this", "teach me this"}
         attachment_reference = key[0] in attachment_phrases or any(re.search(pattern, key[0]) for pattern in attachment_patterns)
@@ -65,10 +67,37 @@ class Retriever:
                 candidates = slide_records or candidates
             visual = [record for record in candidates if record.visual_url]
             ranked = visual or candidates
-            latest_document_id = ranked[0].document_id if ranked else None
-            chosen = [record for record in ranked if record.document_id == latest_document_id][:self.top_k]
+            multi_document_request = bool(re.search(
+                r"\b(?:all|every|each|these|uploaded|them|everything)\b", key[0]
+            ))
+            if multi_document_request:
+                # Give the lesson builder evidence from every referenced upload instead
+                # of silently anchoring a multi-document request to the newest file.
+                chosen = []
+                seen_documents: set[str] = set()
+                for record in ranked:
+                    if record.document_id not in seen_documents:
+                        chosen.append(record)
+                        seen_documents.add(record.document_id)
+                    if len(chosen) == self.top_k:
+                        break
+                if len(chosen) < self.top_k:
+                    chosen_ids = {record.chunk_id for record in chosen}
+                    chosen.extend(record for record in ranked if record.chunk_id not in chosen_ids)
+                    chosen = chosen[:self.top_k]
+            else:
+                latest_document_id = ranked[0].document_id if ranked else None
+                chosen = [record for record in ranked if record.document_id == latest_document_id][:self.top_k]
+            # Limit to at most 4 chunks for context size
+            if len(chosen) > 4:
+                chosen = chosen[:4]
+            # Build context string
+            context_str = "\n\n".join(f"[{record.document_name}, p.{record.page}] {record.page_content}" for record in chosen)
+            # Truncate to 2500 characters
+            if len(context_str) > 2500:
+                context_str = context_str[:2500]
             result = RetrievalResult(
-                context="\n\n".join(f"[{record.document_name}, p.{record.page}] {record.page_content}" for record in chosen),
+                context=context_str,
                 sources=[Source(document_id=record.document_id, document_name=record.document_name, page=record.page, chunk_id=record.chunk_id, score=1.0, visual_url=record.visual_url) for record in chosen],
                 records=chosen,
             )
